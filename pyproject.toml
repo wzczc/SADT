@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sadt"
+version = "1.0.0"
+description = "SADT hallucination analysis, detection, classification, and mitigation."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "accelerate==0.21.0",
+    "einops==0.6.1",
+    "einops-exts==0.0.4",
+    "httpx==0.24.0",
+    "inflect",
+    "matplotlib",
+    "nltk",
+    "numpy<2",
+    "opencv-python",
+    "pillow",
+    "pydantic",
+    "requests",
+    "seaborn",
+    "sentencepiece==0.1.99",
+    "shortuuid",
+    "timm==0.6.13",
+    "tokenizers==0.15.1",
+    "torch",
+    "torchvision",
+    "tqdm",
+    "transformers==4.37.2",
+]
+
+[tool.setuptools.packages.find]
+include = ["evaluation*", "llava*", "tools*"]
+exclude = ["data*", "outputs*"]

@@ -1,0 +1,10282 @@
+[
+  {
+    "img_id": "COCO_val2014_000000001171.jpg",
+    "gt_words": [
+      "bed",
+      "car",
+      "truck",
+      "train"
+    ],
+    "generated_words": [
+      "traffic light",
+      "car",
+      "train"
+    ],
+    "hallucination_words": [
+      "traffic light"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000006033.jpg",
+    "gt_words": [
+      "person",
+      "bus",
+      "sheep",
+      "suitcase"
+    ],
+    "generated_words": [
+      "person",
+      "suitcase",
+      "sheep",
+      "bus",
+      "cow"
+    ],
+    "hallucination_words": [
+      "cow"
+    ],
+    "detected_hallucinations": [
+      "cow"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000007320.jpg",
+    "gt_words": [
+      "person",
+      "dining table",
+      "remote",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "tv",
+      "cell phone",
+      "remote"
+    ],
+    "hallucination_words": [
+      "cell phone"
+    ],
+    "detected_hallucinations": [
+      "cell phone"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000007795.jpg",
+    "gt_words": [
+      "bed",
+      "clock"
+    ],
+    "generated_words": [
+      "chair",
+      "clock",
+      "remote",
+      "bed"
+    ],
+    "hallucination_words": [
+      "chair",
+      "remote"
+    ],
+    "detected_hallucinations": [
+      "chair",
+      "remote"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000008749.jpg",
+    "gt_words": [
+      "dining table",
+      "pizza",
+      "bottle",
+      "cup"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "dining table",
+      "cup",
+      "bottle",
+      "pizza"
+    ],
+    "hallucination_words": [
+      "bowl"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000012333.jpg",
+    "gt_words": [
+      "chair",
+      "person",
+      "horse",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "cell phone",
+      "horse"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000013348.jpg",
+    "gt_words": [
+      "airplane",
+      "person",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "airplane",
+      "truck"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000015338.jpg",
+    "gt_words": [
+      "car",
+      "bus",
+      "truck",
+      "person",
+      "sports ball",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "bench",
+      "car",
+      "bus"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000015738.jpg",
+    "gt_words": [
+      "bottle",
+      "chair",
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "tennis racket",
+      "sports ball",
+      "bottle",
+      "chair"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000016451.jpg",
+    "gt_words": [
+      "backpack",
+      "surfboard",
+      "umbrella",
+      "chair",
+      "person",
+      "handbag"
+    ],
+    "generated_words": [
+      "umbrella",
+      "chair",
+      "surfboard",
+      "handbag"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000016775.jpg",
+    "gt_words": [
+      "dog",
+      "truck",
+      "bird",
+      "person",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "dog",
+      "bus",
+      "truck"
+    ],
+    "hallucination_words": [
+      "bus"
+    ],
+    "detected_hallucinations": [
+      "bus"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000017379.jpg",
+    "gt_words": [
+      "person",
+      "sink",
+      "tv"
+    ],
+    "generated_words": [
+      "cup",
+      "tv",
+      "toothbrush",
+      "sink"
+    ],
+    "hallucination_words": [
+      "cup",
+      "toothbrush"
+    ],
+    "detected_hallucinations": [
+      "cup",
+      "toothbrush"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000017708.jpg",
+    "gt_words": [
+      "boat",
+      "person",
+      "bird"
+    ],
+    "generated_words": [
+      "boat",
+      "bird"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000018150.jpg",
+    "gt_words": [
+      "backpack",
+      "pizza",
+      "bottle",
+      "couch",
+      "person",
+      "bed"
+    ],
+    "generated_words": [
+      "person",
+      "bed",
+      "dining table",
+      "bottle",
+      "cup",
+      "teddy bear",
+      "chair",
+      "remote",
+      "pizza"
+    ],
+    "hallucination_words": [
+      "dining table",
+      "cup",
+      "teddy bear",
+      "chair",
+      "remote"
+    ],
+    "detected_hallucinations": [
+      "dining table",
+      "cup",
+      "remote"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000018918.jpg",
+    "gt_words": [
+      "sink",
+      "bowl"
+    ],
+    "generated_words": [
+      "bowl",
+      "refrigerator",
+      "oven",
+      "dining table",
+      "cup",
+      "spoon",
+      "bottle",
+      "sink",
+      "knife"
+    ],
+    "hallucination_words": [
+      "oven",
+      "refrigerator",
+      "spoon",
+      "dining table",
+      "cup",
+      "bottle",
+      "knife"
+    ],
+    "detected_hallucinations": [
+      "refrigerator",
+      "oven",
+      "dining table",
+      "cup",
+      "spoon",
+      "bottle",
+      "sink",
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000021327.jpg",
+    "gt_words": [
+      "dining table",
+      "pizza",
+      "cup",
+      "tv"
+    ],
+    "generated_words": [
+      "tv",
+      "dining table",
+      "pizza"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000023084.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000023731.jpg",
+    "gt_words": [
+      "dining table",
+      "clock",
+      "chair",
+      "cat"
+    ],
+    "generated_words": [
+      "cat",
+      "dining table",
+      "clock",
+      "chair",
+      "orange"
+    ],
+    "hallucination_words": [
+      "orange"
+    ],
+    "detected_hallucinations": [
+      "orange"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000025972.jpg",
+    "gt_words": [
+      "car",
+      "bicycle",
+      "truck",
+      "bottle",
+      "chair",
+      "couch",
+      "stop sign",
+      "backpack",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "backpack",
+      "handbag",
+      "bicycle",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000031773.jpg",
+    "gt_words": [
+      "laptop",
+      "person",
+      "mouse",
+      "potted plant",
+      "dining table",
+      "keyboard",
+      "tv",
+      "book"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "mouse",
+      "dining table",
+      "keyboard",
+      "laptop",
+      "potted plant",
+      "book"
+    ],
+    "hallucination_words": [
+      "cell phone"
+    ],
+    "detected_hallucinations": [
+      "cell phone"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000031971.jpg",
+    "gt_words": [
+      "bed",
+      "book",
+      "orange"
+    ],
+    "generated_words": [
+      "chair",
+      "book",
+      "bed"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000032610.jpg",
+    "gt_words": [
+      "backpack",
+      "dining table",
+      "laptop",
+      "bench"
+    ],
+    "generated_words": [
+      "backpack",
+      "mouse",
+      "dining table",
+      "keyboard",
+      "laptop"
+    ],
+    "hallucination_words": [
+      "keyboard",
+      "mouse"
+    ],
+    "detected_hallucinations": [
+      "mouse",
+      "keyboard"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000033270.jpg",
+    "gt_words": [
+      "person",
+      "refrigerator",
+      "couch",
+      "orange",
+      "book",
+      "clock",
+      "tv",
+      "dining table",
+      "bottle"
+    ],
+    "generated_words": [
+      "couch",
+      "book",
+      "dining table",
+      "bottle",
+      "clock",
+      "chair",
+      "vase",
+      "tv"
+    ],
+    "hallucination_words": [
+      "chair",
+      "vase"
+    ],
+    "detected_hallucinations": [
+      "book",
+      "chair",
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000034773.jpg",
+    "gt_words": [
+      "potted plant",
+      "dog",
+      "chair",
+      "couch"
+    ],
+    "generated_words": [
+      "couch",
+      "dog",
+      "dining table",
+      "chair",
+      "vase",
+      "potted plant"
+    ],
+    "hallucination_words": [
+      "dining table",
+      "vase"
+    ],
+    "detected_hallucinations": [
+      "dining table",
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000037900.jpg",
+    "gt_words": [
+      "backpack",
+      "knife",
+      "handbag",
+      "bed",
+      "cell phone"
+    ],
+    "generated_words": [
+      "cell phone",
+      "handbag",
+      "bed",
+      "dining table",
+      "book",
+      "scissors"
+    ],
+    "hallucination_words": [
+      "book",
+      "dining table",
+      "scissors"
+    ],
+    "detected_hallucinations": [
+      "book",
+      "scissors"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000038645.jpg",
+    "gt_words": [
+      "umbrella",
+      "potted plant",
+      "cup",
+      "chair"
+    ],
+    "generated_words": [
+      "umbrella",
+      "chair",
+      "bench",
+      "dining table"
+    ],
+    "hallucination_words": [
+      "bench",
+      "dining table"
+    ],
+    "detected_hallucinations": [
+      "bench",
+      "dining table"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000039516.jpg",
+    "gt_words": [
+      "cake",
+      "orange",
+      "spoon"
+    ],
+    "generated_words": [
+      "spoon",
+      "orange",
+      "cake"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "orange"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000040361.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "sports ball",
+      "baseball glove"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "sports ball",
+      "baseball bat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000041180.jpg",
+    "gt_words": [
+      "person",
+      "backpack",
+      "cow",
+      "surfboard"
+    ],
+    "generated_words": [
+      "person",
+      "surfboard",
+      "cow"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000042190.jpg",
+    "gt_words": [
+      "person",
+      "snowboard",
+      "surfboard"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [
+      "skis"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000042685.jpg",
+    "gt_words": [
+      "pizza",
+      "bowl",
+      "cup",
+      "person",
+      "bed",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "bed",
+      "cup",
+      "pizza"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000044520.jpg",
+    "gt_words": [
+      "train",
+      "stop sign",
+      "traffic light"
+    ],
+    "generated_words": [
+      "stop sign",
+      "train"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000044801.jpg",
+    "gt_words": [
+      "car",
+      "motorcycle",
+      "bus",
+      "truck",
+      "traffic light",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "backpack",
+      "car",
+      "motorcycle",
+      "bus",
+      "traffic light"
+    ],
+    "hallucination_words": [
+      "backpack"
+    ],
+    "detected_hallucinations": [
+      "backpack"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000045685.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "frisbee"
+    ],
+    "hallucination_words": [
+      "frisbee"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000049473.jpg",
+    "gt_words": [
+      "dining table",
+      "book",
+      "vase"
+    ],
+    "generated_words": [
+      "dining table",
+      "vase"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000050627.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "sports ball",
+      "baseball glove"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "sports ball",
+      "baseball bat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "baseball glove"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000052689.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000059383.jpg",
+    "gt_words": [
+      "sink",
+      "cup",
+      "microwave",
+      "bottle",
+      "oven",
+      "cell phone"
+    ],
+    "generated_words": [
+      "oven",
+      "microwave",
+      "refrigerator",
+      "cup",
+      "bottle"
+    ],
+    "hallucination_words": [
+      "refrigerator"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000060213.jpg",
+    "gt_words": [
+      "backpack",
+      "bed",
+      "book",
+      "handbag"
+    ],
+    "generated_words": [
+      "chair",
+      "clock",
+      "handbag",
+      "bed"
+    ],
+    "hallucination_words": [
+      "chair",
+      "clock"
+    ],
+    "detected_hallucinations": [
+      "chair",
+      "clock"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000061507.jpg",
+    "gt_words": [
+      "kite",
+      "suitcase",
+      "bicycle",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella",
+      "backpack",
+      "handbag",
+      "kite"
+    ],
+    "hallucination_words": [
+      "umbrella",
+      "handbag",
+      "backpack"
+    ],
+    "detected_hallucinations": [
+      "umbrella",
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000063953.jpg",
+    "gt_words": [
+      "bicycle",
+      "skateboard",
+      "person",
+      "chair",
+      "handbag",
+      "backpack"
+    ],
+    "generated_words": [
+      "person",
+      "skateboard",
+      "backpack",
+      "handbag",
+      "bicycle",
+      "chair"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000065001.jpg",
+    "gt_words": [
+      "person",
+      "motorcycle",
+      "car",
+      "bicycle"
+    ],
+    "generated_words": [
+      "person",
+      "handbag",
+      "bicycle",
+      "car",
+      "motorcycle"
+    ],
+    "hallucination_words": [
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000068418.jpg",
+    "gt_words": [
+      "laptop",
+      "keyboard",
+      "apple",
+      "mouse",
+      "tv"
+    ],
+    "generated_words": [
+      "keyboard",
+      "laptop",
+      "mouse"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000069189.jpg",
+    "gt_words": [
+      "car",
+      "bicycle",
+      "umbrella",
+      "bird",
+      "person",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella",
+      "handbag",
+      "bicycle",
+      "car",
+      "potted plant",
+      "truck"
+    ],
+    "hallucination_words": [
+      "potted plant",
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "potted plant",
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000069196.jpg",
+    "gt_words": [
+      "airplane",
+      "handbag",
+      "person",
+      "backpack"
+    ],
+    "generated_words": [
+      "person",
+      "backpack",
+      "handbag",
+      "airplane"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000069863.jpg",
+    "gt_words": [
+      "dining table",
+      "potted plant",
+      "car",
+      "vase"
+    ],
+    "generated_words": [
+      "dining table",
+      "vase",
+      "potted plant"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000070813.jpg",
+    "gt_words": [
+      "handbag",
+      "dining table",
+      "bed",
+      "bottle",
+      "chair"
+    ],
+    "generated_words": [
+      "bed",
+      "dining table",
+      "bottle",
+      "clock",
+      "chair",
+      "vase"
+    ],
+    "hallucination_words": [
+      "vase",
+      "clock"
+    ],
+    "detected_hallucinations": [
+      "clock",
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000071738.jpg",
+    "gt_words": [
+      "person",
+      "motorcycle",
+      "tie",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "bench",
+      "cell phone"
+    ],
+    "hallucination_words": [
+      "bench",
+      "cell phone"
+    ],
+    "detected_hallucinations": [
+      "bench",
+      "cell phone"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000073182.jpg",
+    "gt_words": [
+      "car",
+      "bicycle",
+      "motorcycle",
+      "person",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "boat",
+      "car",
+      "motorcycle"
+    ],
+    "hallucination_words": [
+      "boat"
+    ],
+    "detected_hallucinations": [
+      "boat"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000075591.jpg",
+    "gt_words": [
+      "cat",
+      "book",
+      "bed"
+    ],
+    "generated_words": [
+      "cat",
+      "bed",
+      "book",
+      "laptop",
+      "tv"
+    ],
+    "hallucination_words": [
+      "tv",
+      "laptop"
+    ],
+    "detected_hallucinations": [
+      "laptop"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000079213.jpg",
+    "gt_words": [
+      "person",
+      "remote",
+      "couch"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "couch",
+      "remote"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000079446.jpg",
+    "gt_words": [
+      "toilet",
+      "sink",
+      "bottle"
+    ],
+    "generated_words": [
+      "cup",
+      "bottle",
+      "toilet",
+      "sink",
+      "toothbrush"
+    ],
+    "hallucination_words": [
+      "cup",
+      "toothbrush"
+    ],
+    "detected_hallucinations": [
+      "cup",
+      "toothbrush"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000080022.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000083275.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "sports ball",
+      "baseball glove"
+    ],
+    "generated_words": [
+      "person",
+      "baseball bat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000084410.jpg",
+    "gt_words": [
+      "cup",
+      "vase",
+      "wine glass"
+    ],
+    "generated_words": [
+      "bowl",
+      "dining table",
+      "cup"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "dining table"
+    ],
+    "detected_hallucinations": [
+      "bowl"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000084447.jpg",
+    "gt_words": [
+      "person",
+      "motorcycle",
+      "bicycle"
+    ],
+    "generated_words": [
+      "person",
+      "motorcycle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000088507.jpg",
+    "gt_words": [
+      "backpack",
+      "skis",
+      "person",
+      "orange",
+      "bear"
+    ],
+    "generated_words": [
+      "person",
+      "backpack",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000089367.jpg",
+    "gt_words": [
+      "knife",
+      "fork",
+      "chair",
+      "pizza",
+      "bottle",
+      "person",
+      "dining table"
+    ],
+    "generated_words": [
+      "knife",
+      "chair",
+      "pizza",
+      "bottle",
+      "person",
+      "dining table"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000091954.jpg",
+    "gt_words": [
+      "train",
+      "car",
+      "truck",
+      "potted plant"
+    ],
+    "generated_words": [
+      "potted plant",
+      "car",
+      "train"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000092624.jpg",
+    "gt_words": [
+      "cow",
+      "zebra",
+      "giraffe"
+    ],
+    "generated_words": [
+      "zebra",
+      "giraffe"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000093948.jpg",
+    "gt_words": [
+      "laptop",
+      "keyboard",
+      "dining table",
+      "mouse",
+      "tv",
+      "cat",
+      "book"
+    ],
+    "generated_words": [
+      "cat",
+      "mouse",
+      "dining table",
+      "keyboard",
+      "laptop",
+      "book"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "mouse"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000094501.jpg",
+    "gt_words": [
+      "dining table",
+      "cake",
+      "bottle",
+      "fork"
+    ],
+    "generated_words": [
+      "fork",
+      "dining table",
+      "cake",
+      "bottle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000094944.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "backpack",
+      "snowboard"
+    ],
+    "generated_words": [
+      "person",
+      "snowboard"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000098493.jpg",
+    "gt_words": [
+      "car",
+      "truck",
+      "clock",
+      "chair",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "clock"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000100238.jpg",
+    "gt_words": [
+      "person",
+      "handbag",
+      "bottle",
+      "frisbee"
+    ],
+    "generated_words": [
+      "person",
+      "frisbee",
+      "handbag"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000102439.jpg",
+    "gt_words": [
+      "person",
+      "remote",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "tv",
+      "remote"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000102906.jpg",
+    "gt_words": [
+      "traffic light",
+      "car",
+      "fire hydrant"
+    ],
+    "generated_words": [
+      "person",
+      "traffic light",
+      "fire hydrant",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000105732.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "backpack"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000108189.jpg",
+    "gt_words": [
+      "cup",
+      "fork",
+      "dining table",
+      "knife",
+      "sandwich"
+    ],
+    "generated_words": [
+      "bowl",
+      "dining table",
+      "cup",
+      "sandwich",
+      "fork"
+    ],
+    "hallucination_words": [
+      "bowl"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000111817.jpg",
+    "gt_words": [
+      "person",
+      "dining table",
+      "cup",
+      "cake"
+    ],
+    "generated_words": [
+      "dining table",
+      "cake"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000114710.jpg",
+    "gt_words": [
+      "person",
+      "backpack",
+      "sheep"
+    ],
+    "generated_words": [
+      "person",
+      "sheep",
+      "backpack"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000114941.jpg",
+    "gt_words": [
+      "person",
+      "train",
+      "car"
+    ],
+    "generated_words": [
+      "person",
+      "train"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000115626.jpg",
+    "gt_words": [
+      "person",
+      "motorcycle",
+      "parking meter"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "motorcycle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000115636.jpg",
+    "gt_words": [
+      "person",
+      "cow",
+      "horse"
+    ],
+    "generated_words": [
+      "person",
+      "horse"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000117527.jpg",
+    "gt_words": [
+      "person",
+      "dining table",
+      "bowl",
+      "cup"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "dining table",
+      "cup",
+      "bottle",
+      "chair",
+      "knife"
+    ],
+    "hallucination_words": [
+      "chair",
+      "knife",
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "bottle",
+      "chair",
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000120648.jpg",
+    "gt_words": [
+      "suitcase",
+      "dining table",
+      "handbag",
+      "bed",
+      "book"
+    ],
+    "generated_words": [
+      "suitcase",
+      "bed",
+      "dining table",
+      "chair",
+      "remote",
+      "tv"
+    ],
+    "hallucination_words": [
+      "chair",
+      "remote",
+      "tv"
+    ],
+    "detected_hallucinations": [
+      "bed",
+      "chair",
+      "remote"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000120792.jpg",
+    "gt_words": [
+      "cup",
+      "remote",
+      "bottle",
+      "chair",
+      "couch",
+      "person",
+      "refrigerator",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "book",
+      "cup",
+      "chair",
+      "remote",
+      "tv"
+    ],
+    "hallucination_words": [
+      "book"
+    ],
+    "detected_hallucinations": [
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000121959.jpg",
+    "gt_words": [
+      "person",
+      "handbag",
+      "umbrella",
+      "chair",
+      "backpack"
+    ],
+    "generated_words": [
+      "umbrella",
+      "person",
+      "backpack",
+      "chair",
+      "boat"
+    ],
+    "hallucination_words": [
+      "boat"
+    ],
+    "detected_hallucinations": [
+      "boat"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000122962.jpg",
+    "gt_words": [
+      "person",
+      "pizza",
+      "cell phone",
+      "dining table",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "cup",
+      "chair",
+      "pizza"
+    ],
+    "hallucination_words": [
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000123017.jpg",
+    "gt_words": [
+      "bench",
+      "dining table",
+      "chair",
+      "potted plant"
+    ],
+    "generated_words": [
+      "bowl",
+      "dining table",
+      "cup",
+      "chair",
+      "vase",
+      "potted plant"
+    ],
+    "hallucination_words": [
+      "vase",
+      "bowl",
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "cup",
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000123570.jpg",
+    "gt_words": [
+      "person",
+      "umbrella",
+      "car"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella",
+      "handbag",
+      "bottle",
+      "car"
+    ],
+    "hallucination_words": [
+      "bottle",
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000124629.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "tennis racket"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000124930.jpg",
+    "gt_words": [
+      "cup",
+      "wine glass",
+      "knife",
+      "person",
+      "spoon"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "wine glass",
+      "cup",
+      "bottle"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "bottle"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000125572.jpg",
+    "gt_words": [
+      "backpack",
+      "bicycle",
+      "bus",
+      "truck",
+      "clock",
+      "traffic light",
+      "person",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "bicycle",
+      "car",
+      "clock",
+      "motorcycle",
+      "truck",
+      "bus"
+    ],
+    "hallucination_words": [
+      "motorcycle"
+    ],
+    "detected_hallucinations": [
+      "motorcycle"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000126606.jpg",
+    "gt_words": [
+      "car",
+      "motorcycle",
+      "bicycle",
+      "person"
+    ],
+    "generated_words": [
+      "handbag",
+      "bicycle",
+      "backpack",
+      "car",
+      "motorcycle",
+      "person"
+    ],
+    "hallucination_words": [
+      "backpack",
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag",
+      "backpack"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000131018.jpg",
+    "gt_words": [
+      "sink",
+      "bowl",
+      "cup",
+      "bottle",
+      "person",
+      "scissors"
+    ],
+    "generated_words": [
+      "person",
+      "spoon",
+      "cup",
+      "sink",
+      "knife"
+    ],
+    "hallucination_words": [
+      "spoon",
+      "knife"
+    ],
+    "detected_hallucinations": [
+      "spoon",
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000134075.jpg",
+    "gt_words": [
+      "cup",
+      "dining table",
+      "bottle",
+      "person",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "cell phone",
+      "dining table",
+      "cup",
+      "spoon",
+      "fork",
+      "knife"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "spoon",
+      "knife",
+      "fork"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "spoon",
+      "fork",
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000134715.jpg",
+    "gt_words": [
+      "toilet",
+      "cup",
+      "toothbrush",
+      "sink"
+    ],
+    "generated_words": [
+      "bottle",
+      "toilet",
+      "sink",
+      "toothbrush",
+      "scissors",
+      "cup"
+    ],
+    "hallucination_words": [
+      "bottle",
+      "scissors"
+    ],
+    "detected_hallucinations": [
+      "bottle",
+      "sink",
+      "scissors"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000135914.jpg",
+    "gt_words": [
+      "bear",
+      "keyboard",
+      "tv",
+      "bed",
+      "laptop",
+      "mouse",
+      "teddy bear"
+    ],
+    "generated_words": [
+      "dining table",
+      "keyboard",
+      "tv",
+      "book",
+      "laptop",
+      "cup",
+      "teddy bear"
+    ],
+    "hallucination_words": [
+      "dining table",
+      "cup",
+      "book"
+    ],
+    "detected_hallucinations": [
+      "book",
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000137057.jpg",
+    "gt_words": [
+      "frisbee",
+      "dog"
+    ],
+    "generated_words": [
+      "frisbee",
+      "dog"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000139099.jpg",
+    "gt_words": [
+      "motorcycle",
+      "bicycle",
+      "backpack",
+      "apple",
+      "dog",
+      "handbag",
+      "umbrella",
+      "car",
+      "person",
+      "banana"
+    ],
+    "generated_words": [
+      "motorcycle",
+      "handbag",
+      "umbrella",
+      "car",
+      "person"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000140583.jpg",
+    "gt_words": [
+      "cow",
+      "person",
+      "sheep",
+      "truck"
+    ],
+    "generated_words": [
+      "sheep",
+      "truck"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000140983.jpg",
+    "gt_words": [
+      "person",
+      "toothbrush",
+      "couch",
+      "book"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "book",
+      "toothbrush"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000141017.jpg",
+    "gt_words": [
+      "refrigerator",
+      "couch",
+      "sink",
+      "dining table",
+      "oven",
+      "suitcase",
+      "microwave",
+      "chair",
+      "person"
+    ],
+    "generated_words": [
+      "refrigerator",
+      "bottle",
+      "dining table",
+      "oven",
+      "backpack",
+      "microwave",
+      "chair",
+      "person"
+    ],
+    "hallucination_words": [
+      "bottle",
+      "backpack"
+    ],
+    "detected_hallucinations": [
+      "oven",
+      "backpack",
+      "microwave"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000141278.jpg",
+    "gt_words": [
+      "laptop",
+      "keyboard",
+      "dining table",
+      "mouse",
+      "chair",
+      "cell phone",
+      "tv"
+    ],
+    "generated_words": [
+      "cell phone",
+      "mouse",
+      "dining table",
+      "chair",
+      "keyboard",
+      "laptop",
+      "tv"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "mouse",
+      "keyboard"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000142056.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000142774.jpg",
+    "gt_words": [
+      "person",
+      "motorcycle",
+      "bus"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "motorcycle",
+      "truck",
+      "bus"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000143387.jpg",
+    "gt_words": [
+      "skis",
+      "backpack",
+      "person"
+    ],
+    "generated_words": [
+      "skis",
+      "backpack",
+      "person"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000145746.jpg",
+    "gt_words": [
+      "bottle",
+      "sink",
+      "bed",
+      "suitcase",
+      "cup",
+      "chair"
+    ],
+    "generated_words": [
+      "bottle",
+      "toilet",
+      "bowl",
+      "sink",
+      "tv",
+      "toothbrush",
+      "bed",
+      "suitcase",
+      "cup"
+    ],
+    "hallucination_words": [
+      "toilet",
+      "bowl",
+      "tv",
+      "toothbrush"
+    ],
+    "detected_hallucinations": [
+      "toilet",
+      "sink",
+      "toothbrush",
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000147165.jpg",
+    "gt_words": [
+      "person",
+      "sink",
+      "oven",
+      "spoon"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "spoon",
+      "knife"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "knife"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "spoon",
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000147289.jpg",
+    "gt_words": [
+      "stop sign",
+      "car",
+      "fire hydrant"
+    ],
+    "generated_words": [
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000148766.jpg",
+    "gt_words": [
+      "toilet",
+      "bowl",
+      "vase"
+    ],
+    "generated_words": [
+      "toilet"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000149592.jpg",
+    "gt_words": [
+      "person",
+      "boat",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "bench",
+      "boat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000154846.jpg",
+    "gt_words": [
+      "person",
+      "dining table",
+      "pizza"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "pizza"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000155131.jpg",
+    "gt_words": [
+      "bench",
+      "sports ball",
+      "person",
+      "tennis racket",
+      "umbrella",
+      "tie"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella",
+      "tennis racket",
+      "sports ball",
+      "chair"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000155478.jpg",
+    "gt_words": [
+      "chair",
+      "person",
+      "remote"
+    ],
+    "generated_words": [
+      "handbag",
+      "clock",
+      "remote",
+      "chair",
+      "person"
+    ],
+    "hallucination_words": [
+      "handbag",
+      "clock"
+    ],
+    "detected_hallucinations": [
+      "clock"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000156282.jpg",
+    "gt_words": [
+      "kite",
+      "umbrella",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "kite",
+      "umbrella"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000156704.jpg",
+    "gt_words": [
+      "person",
+      "surfboard",
+      "umbrella",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "surfboard",
+      "handbag",
+      "umbrella"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000157084.jpg",
+    "gt_words": [
+      "sink",
+      "bench",
+      "toilet"
+    ],
+    "generated_words": [
+      "toothbrush",
+      "toilet",
+      "bottle",
+      "sink"
+    ],
+    "hallucination_words": [
+      "bottle",
+      "toothbrush"
+    ],
+    "detected_hallucinations": [
+      "toothbrush",
+      "bottle"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000159969.jpg",
+    "gt_words": [
+      "backpack",
+      "person",
+      "skis"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000160239.jpg",
+    "gt_words": [
+      "person",
+      "kite"
+    ],
+    "generated_words": [
+      "bicycle",
+      "car",
+      "person",
+      "kite"
+    ],
+    "hallucination_words": [
+      "bicycle"
+    ],
+    "detected_hallucinations": [
+      "bicycle"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000163348.jpg",
+    "gt_words": [
+      "dining table",
+      "keyboard",
+      "clock",
+      "book",
+      "laptop",
+      "cup",
+      "chair"
+    ],
+    "generated_words": [
+      "dining table",
+      "keyboard",
+      "book",
+      "laptop",
+      "cup",
+      "mouse"
+    ],
+    "hallucination_words": [
+      "mouse"
+    ],
+    "detected_hallucinations": [
+      "mouse"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000163575.jpg",
+    "gt_words": [
+      "person",
+      "bed",
+      "dog"
+    ],
+    "generated_words": [
+      "person",
+      "dog",
+      "bed"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000163814.jpg",
+    "gt_words": [
+      "skateboard",
+      "person",
+      "motorcycle"
+    ],
+    "generated_words": [
+      "person",
+      "skateboard",
+      "bench",
+      "truck"
+    ],
+    "hallucination_words": [
+      "bench",
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000167044.jpg",
+    "gt_words": [
+      "dining table",
+      "pizza",
+      "fork"
+    ],
+    "generated_words": [
+      "dining table",
+      "knife",
+      "pizza",
+      "fork"
+    ],
+    "hallucination_words": [
+      "knife"
+    ],
+    "detected_hallucinations": [
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000167110.jpg",
+    "gt_words": [
+      "skateboard",
+      "person",
+      "car",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "skateboard",
+      "bench",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000167724.jpg",
+    "gt_words": [
+      "person",
+      "oven",
+      "bottle",
+      "spoon"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "refrigerator",
+      "oven",
+      "spoon",
+      "bottle",
+      "cup",
+      "sink"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "cup",
+      "refrigerator",
+      "sink"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "refrigerator",
+      "sink"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000170077.jpg",
+    "gt_words": [
+      "wine glass",
+      "dining table",
+      "umbrella",
+      "person",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella",
+      "wine glass",
+      "dining table",
+      "chair"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000170517.jpg",
+    "gt_words": [
+      "car",
+      "umbrella",
+      "person",
+      "dog"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella",
+      "dog",
+      "car",
+      "truck"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000172342.jpg",
+    "gt_words": [
+      "bowl",
+      "cup",
+      "fork",
+      "dining table",
+      "bottle",
+      "clock",
+      "person",
+      "spoon",
+      "book"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "dining table",
+      "cup",
+      "bottle",
+      "clock",
+      "chair"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "cup",
+      "bottle",
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000172648.jpg",
+    "gt_words": [
+      "person",
+      "bed",
+      "car",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "parking meter",
+      "car",
+      "truck"
+    ],
+    "hallucination_words": [
+      "parking meter"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000175506.jpg",
+    "gt_words": [
+      "person",
+      "orange",
+      "frisbee"
+    ],
+    "generated_words": [
+      "person",
+      "frisbee"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000179151.jpg",
+    "gt_words": [
+      "motorcycle",
+      "bicycle",
+      "backpack",
+      "handbag",
+      "umbrella",
+      "car",
+      "person"
+    ],
+    "generated_words": [
+      "motorcycle",
+      "truck",
+      "backpack",
+      "handbag",
+      "person"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000182236.jpg",
+    "gt_words": [
+      "dining table",
+      "laptop",
+      "potted plant",
+      "handbag",
+      "book",
+      "remote",
+      "tie",
+      "cup",
+      "person"
+    ],
+    "generated_words": [
+      "dining table",
+      "potted plant",
+      "book",
+      "remote",
+      "laptop",
+      "cup",
+      "person",
+      "cell phone"
+    ],
+    "hallucination_words": [
+      "cell phone"
+    ],
+    "detected_hallucinations": [
+      "cell phone"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000183757.jpg",
+    "gt_words": [
+      "boat",
+      "dog",
+      "cat"
+    ],
+    "generated_words": [
+      "cat",
+      "dog",
+      "boat",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000183965.jpg",
+    "gt_words": [
+      "cup",
+      "dining table",
+      "hot dog",
+      "sandwich"
+    ],
+    "generated_words": [
+      "bowl",
+      "donut",
+      "dining table",
+      "cup",
+      "spoon",
+      "sandwich",
+      "fork"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "donut",
+      "spoon",
+      "fork"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "donut",
+      "cup",
+      "spoon",
+      "fork"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000184274.jpg",
+    "gt_words": [
+      "refrigerator",
+      "bed",
+      "person"
+    ],
+    "generated_words": [
+      "refrigerator",
+      "sink",
+      "dining table",
+      "potted plant",
+      "microwave",
+      "bed",
+      "chair"
+    ],
+    "hallucination_words": [
+      "sink",
+      "dining table",
+      "potted plant",
+      "microwave",
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "sink",
+      "dining table",
+      "potted plant",
+      "microwave",
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000186709.jpg",
+    "gt_words": [
+      "apple",
+      "car",
+      "truck",
+      "orange"
+    ],
+    "generated_words": [
+      "orange",
+      "apple"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "orange",
+      "apple"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000188958.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000189694.jpg",
+    "gt_words": [
+      "microwave",
+      "person",
+      "sink",
+      "bottle"
+    ],
+    "generated_words": [
+      "person",
+      "microwave",
+      "toaster",
+      "bottle",
+      "cup",
+      "sink"
+    ],
+    "hallucination_words": [
+      "cup",
+      "toaster"
+    ],
+    "detected_hallucinations": [
+      "toaster",
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000190185.jpg",
+    "gt_words": [
+      "hot dog",
+      "sandwich",
+      "bowl",
+      "dog",
+      "dining table"
+    ],
+    "generated_words": [
+      "bowl",
+      "hot dog",
+      "dining table",
+      "sandwich",
+      "knife",
+      "fork"
+    ],
+    "hallucination_words": [
+      "fork",
+      "knife"
+    ],
+    "detected_hallucinations": [
+      "knife",
+      "fork"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000190788.jpg",
+    "gt_words": [
+      "pizza",
+      "cup",
+      "dining table",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "cup",
+      "pizza",
+      "knife"
+    ],
+    "hallucination_words": [
+      "knife"
+    ],
+    "detected_hallucinations": [
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000191964.jpg",
+    "gt_words": [
+      "keyboard",
+      "laptop",
+      "orange",
+      "cat"
+    ],
+    "generated_words": [
+      "cat",
+      "keyboard",
+      "laptop"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000194724.jpg",
+    "gt_words": [
+      "dining table",
+      "bottle",
+      "sandwich",
+      "refrigerator",
+      "book",
+      "fork",
+      "chair",
+      "cell phone",
+      "pizza",
+      "cup"
+    ],
+    "generated_words": [
+      "dining table",
+      "person",
+      "bottle",
+      "chair",
+      "cell phone",
+      "pizza",
+      "cup"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000196053.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000196462.jpg",
+    "gt_words": [
+      "bowl",
+      "cup",
+      "fork",
+      "dining table"
+    ],
+    "generated_words": [
+      "bowl",
+      "dining table",
+      "cup",
+      "fork"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000197219.jpg",
+    "gt_words": [
+      "pizza",
+      "dining table",
+      "chair",
+      "person",
+      "cup",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "knife",
+      "dining table",
+      "cup",
+      "bottle",
+      "fork",
+      "pizza"
+    ],
+    "hallucination_words": [
+      "fork",
+      "knife",
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "knife",
+      "fork"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000198312.jpg",
+    "gt_words": [
+      "bowl",
+      "vase",
+      "dining table",
+      "chair",
+      "couch",
+      "bowl",
+      "potted plant"
+    ],
+    "generated_words": [
+      "bowl",
+      "couch",
+      "refrigerator",
+      "dining table",
+      "cup",
+      "chair",
+      "potted plant",
+      "sink"
+    ],
+    "hallucination_words": [
+      "cup",
+      "refrigerator",
+      "sink"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "refrigerator",
+      "cup",
+      "sink"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000198397.jpg",
+    "gt_words": [
+      "person",
+      "sports ball",
+      "tennis racket",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000199122.jpg",
+    "gt_words": [
+      "baseball bat",
+      "chair",
+      "person",
+      "baseball glove",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "sports ball",
+      "baseball bat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000199133.jpg",
+    "gt_words": [
+      "dining table",
+      "apple",
+      "bottle",
+      "fork",
+      "spoon",
+      "bowl",
+      "cup",
+      "orange"
+    ],
+    "generated_words": [
+      "apple",
+      "bottle",
+      "spoon",
+      "bowl",
+      "orange"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "apple",
+      "orange"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000199764.jpg",
+    "gt_words": [
+      "backpack",
+      "bench",
+      "dining table",
+      "truck",
+      "chair",
+      "person",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "car",
+      "truck"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000199940.jpg",
+    "gt_words": [
+      "backpack",
+      "bowl",
+      "bottle",
+      "refrigerator",
+      "oven",
+      "cat"
+    ],
+    "generated_words": [
+      "cat",
+      "bowl",
+      "refrigerator",
+      "bottle",
+      "cup",
+      "chair"
+    ],
+    "hallucination_words": [
+      "chair",
+      "cup"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000199959.jpg",
+    "gt_words": [
+      "backpack",
+      "handbag",
+      "train",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "bench",
+      "train"
+    ],
+    "hallucination_words": [
+      "bench"
+    ],
+    "detected_hallucinations": [
+      "bench"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000200739.jpg",
+    "gt_words": [
+      "car",
+      "suitcase",
+      "truck",
+      "horse",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "truck",
+      "car",
+      "horse"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000201148.jpg",
+    "gt_words": [
+      "person",
+      "train",
+      "traffic light"
+    ],
+    "generated_words": [
+      "person",
+      "bench",
+      "car",
+      "traffic light",
+      "train"
+    ],
+    "hallucination_words": [
+      "bench"
+    ],
+    "detected_hallucinations": [
+      "bench"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000202225.jpg",
+    "gt_words": [
+      "laptop",
+      "vase",
+      "person",
+      "dining table",
+      "couch",
+      "tv",
+      "chair",
+      "mouse",
+      "remote"
+    ],
+    "generated_words": [
+      "laptop",
+      "dining table",
+      "couch",
+      "cup",
+      "bottle",
+      "tv",
+      "chair",
+      "mouse",
+      "remote"
+    ],
+    "hallucination_words": [
+      "cup",
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "mouse",
+      "remote"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000205729.jpg",
+    "gt_words": [
+      "backpack",
+      "person",
+      "skis"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000207205.jpg",
+    "gt_words": [
+      "carrot",
+      "broccoli",
+      "chair"
+    ],
+    "generated_words": [
+      "broccoli"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000208028.jpg",
+    "gt_words": [
+      "person",
+      "laptop",
+      "keyboard"
+    ],
+    "generated_words": [
+      "person",
+      "keyboard",
+      "laptop"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000209290.jpg",
+    "gt_words": [
+      "cup",
+      "fork",
+      "dining table",
+      "chair",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "dining table",
+      "cup",
+      "chair",
+      "sandwich",
+      "fork",
+      "knife"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "sandwich",
+      "knife"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000209755.jpg",
+    "gt_words": [
+      "bowl",
+      "carrot",
+      "person",
+      "oven",
+      "spoon"
+    ],
+    "generated_words": [
+      "person",
+      "spoon",
+      "oven",
+      "carrot"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000209856.jpg",
+    "gt_words": [
+      "dining table",
+      "broccoli",
+      "person",
+      "bottle",
+      "book",
+      "fork",
+      "wine glass",
+      "pizza",
+      "cup"
+    ],
+    "generated_words": [
+      "dining table",
+      "person",
+      "bottle",
+      "book",
+      "fork",
+      "spoon",
+      "wine glass",
+      "cup",
+      "knife"
+    ],
+    "hallucination_words": [
+      "knife",
+      "spoon"
+    ],
+    "detected_hallucinations": [
+      "spoon",
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000210564.jpg",
+    "gt_words": [
+      "person",
+      "truck",
+      "umbrella",
+      "suitcase",
+      "handbag",
+      "backpack"
+    ],
+    "generated_words": [
+      "suitcase",
+      "truck",
+      "person",
+      "backpack"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000210789.jpg",
+    "gt_words": [
+      "person",
+      "truck",
+      "umbrella"
+    ],
+    "generated_words": [
+      "person",
+      "handbag",
+      "car",
+      "umbrella"
+    ],
+    "hallucination_words": [
+      "handbag"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000211674.jpg",
+    "gt_words": [
+      "car",
+      "potted plant",
+      "bus",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "truck",
+      "traffic light",
+      "bus"
+    ],
+    "hallucination_words": [
+      "traffic light",
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck",
+      "traffic light"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000212241.jpg",
+    "gt_words": [
+      "person",
+      "train",
+      "car",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "handbag",
+      "car",
+      "train"
+    ],
+    "hallucination_words": [
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000214244.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "generated_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000214421.jpg",
+    "gt_words": [
+      "laptop",
+      "cup",
+      "dining table",
+      "bottle",
+      "person",
+      "potted plant",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "tv",
+      "bottle",
+      "potted plant"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000216510.jpg",
+    "gt_words": [
+      "dining table",
+      "person",
+      "fork",
+      "spoon",
+      "bowl",
+      "knife",
+      "cake"
+    ],
+    "generated_words": [
+      "dining table",
+      "person",
+      "apple",
+      "spoon",
+      "bowl",
+      "knife",
+      "cake"
+    ],
+    "hallucination_words": [
+      "apple"
+    ],
+    "detected_hallucinations": [
+      "apple",
+      "spoon",
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000217397.jpg",
+    "gt_words": [
+      "fork",
+      "wine glass",
+      "dining table",
+      "bottle",
+      "person",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "wine glass",
+      "dining table",
+      "cup"
+    ],
+    "hallucination_words": [
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "wine glass",
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000218224.jpg",
+    "gt_words": [
+      "car",
+      "airplane"
+    ],
+    "generated_words": [
+      "person",
+      "airplane",
+      "truck"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000219622.jpg",
+    "gt_words": [
+      "car",
+      "frisbee",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "frisbee",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000222118.jpg",
+    "gt_words": [
+      "person",
+      "handbag",
+      "cell phone",
+      "zebra",
+      "suitcase"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "zebra",
+      "handbag"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000222724.jpg",
+    "gt_words": [
+      "car",
+      "fork"
+    ],
+    "generated_words": [
+      "car",
+      "truck",
+      "person"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000223157.jpg",
+    "gt_words": [
+      "person",
+      "train",
+      "skateboard",
+      "handbag",
+      "motorcycle"
+    ],
+    "generated_words": [
+      "bench",
+      "motorcycle",
+      "person",
+      "skateboard"
+    ],
+    "hallucination_words": [
+      "bench"
+    ],
+    "detected_hallucinations": [
+      "bench"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000224155.jpg",
+    "gt_words": [
+      "person",
+      "toilet",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "toilet",
+      "cell phone"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "toilet"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000225518.jpg",
+    "gt_words": [
+      "person",
+      "bed",
+      "couch",
+      "bottle",
+      "tv",
+      "chair",
+      "wine glass"
+    ],
+    "generated_words": [
+      "dining table",
+      "bed",
+      "couch",
+      "bottle",
+      "tv",
+      "chair",
+      "wine glass"
+    ],
+    "hallucination_words": [
+      "dining table"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000226097.jpg",
+    "gt_words": [
+      "sink",
+      "refrigerator",
+      "oven",
+      "spoon"
+    ],
+    "generated_words": [
+      "bowl",
+      "microwave",
+      "oven",
+      "handbag",
+      "spoon",
+      "cup",
+      "bottle",
+      "sink"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "handbag",
+      "microwave",
+      "cup",
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "microwave",
+      "oven",
+      "spoon",
+      "cup",
+      "bottle"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000226404.jpg",
+    "gt_words": [
+      "bench",
+      "person",
+      "skateboard"
+    ],
+    "generated_words": [
+      "bench",
+      "person",
+      "skateboard",
+      "car",
+      "backpack"
+    ],
+    "hallucination_words": [
+      "backpack"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000227204.jpg",
+    "gt_words": [
+      "bowl",
+      "cup",
+      "banana",
+      "dining table",
+      "bottle",
+      "knife",
+      "person",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "cell phone",
+      "dining table",
+      "cup",
+      "spoon",
+      "bottle",
+      "chair",
+      "banana"
+    ],
+    "hallucination_words": [
+      "chair",
+      "spoon"
+    ],
+    "detected_hallucinations": [
+      "cup",
+      "spoon",
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000230175.jpg",
+    "gt_words": [
+      "person",
+      "cup",
+      "tie",
+      "chair",
+      "dining table"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "cup",
+      "chair",
+      "tie"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000231589.jpg",
+    "gt_words": [
+      "person",
+      "bed",
+      "chair",
+      "couch"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "bed"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000233426.jpg",
+    "gt_words": [
+      "dining table",
+      "potted plant",
+      "vase"
+    ],
+    "generated_words": [
+      "chair",
+      "dining table"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000235203.jpg",
+    "gt_words": [
+      "keyboard",
+      "remote",
+      "chair",
+      "couch",
+      "person",
+      "cat"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "keyboard",
+      "cat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000236023.jpg",
+    "gt_words": [
+      "cup",
+      "bottle",
+      "clock",
+      "knife",
+      "person",
+      "refrigerator",
+      "oven"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "refrigerator",
+      "microwave",
+      "cup",
+      "bottle",
+      "sink"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "microwave",
+      "sink"
+    ],
+    "detected_hallucinations": [
+      "bowl"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000236717.jpg",
+    "gt_words": [
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "bus",
+      "truck"
+    ],
+    "hallucination_words": [
+      "bus"
+    ],
+    "detected_hallucinations": [
+      "bus"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000236865.jpg",
+    "gt_words": [
+      "person",
+      "car",
+      "orange",
+      "frisbee"
+    ],
+    "generated_words": [
+      "person",
+      "frisbee",
+      "car",
+      "truck"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000236914.jpg",
+    "gt_words": [
+      "bear",
+      "chair",
+      "dining table",
+      "bottle",
+      "teddy bear"
+    ],
+    "generated_words": [
+      "bowl",
+      "dining table",
+      "bottle",
+      "spoon",
+      "fork",
+      "teddy bear"
+    ],
+    "hallucination_words": [
+      "fork",
+      "spoon",
+      "bowl"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "spoon",
+      "fork"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000237767.jpg",
+    "gt_words": [
+      "remote",
+      "apple",
+      "dining table",
+      "couch",
+      "person",
+      "cell phone",
+      "book",
+      "chair",
+      "clock",
+      "bowl",
+      "tv"
+    ],
+    "generated_words": [
+      "bowl",
+      "couch",
+      "book",
+      "dining table",
+      "clock",
+      "chair",
+      "remote",
+      "vase",
+      "tv"
+    ],
+    "hallucination_words": [
+      "vase"
+    ],
+    "detected_hallucinations": [
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000238029.jpg",
+    "gt_words": [
+      "pizza",
+      "fork",
+      "wine glass",
+      "dining table",
+      "knife",
+      "cup",
+      "person"
+    ],
+    "generated_words": [
+      "bowl",
+      "wine glass",
+      "knife",
+      "dining table",
+      "cup",
+      "bottle",
+      "fork",
+      "pizza"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "knife",
+      "bottle",
+      "pizza"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000238691.jpg",
+    "gt_words": [
+      "backpack",
+      "suitcase",
+      "bottle",
+      "person",
+      "handbag",
+      "refrigerator"
+    ],
+    "generated_words": [
+      "person",
+      "refrigerator",
+      "suitcase",
+      "handbag"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000239130.jpg",
+    "gt_words": [
+      "person",
+      "cell phone",
+      "car",
+      "bicycle",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "handbag",
+      "bicycle",
+      "car",
+      "orange"
+    ],
+    "hallucination_words": [
+      "orange"
+    ],
+    "detected_hallucinations": [
+      "orange"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000239347.jpg",
+    "gt_words": [
+      "person",
+      "bed",
+      "tie"
+    ],
+    "generated_words": [
+      "person",
+      "bed"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000239444.jpg",
+    "gt_words": [
+      "chair",
+      "person",
+      "microwave",
+      "dining table",
+      "pizza",
+      "oven"
+    ],
+    "generated_words": [
+      "person",
+      "microwave",
+      "oven",
+      "dining table",
+      "chair",
+      "sink",
+      "pizza"
+    ],
+    "hallucination_words": [
+      "sink"
+    ],
+    "detected_hallucinations": [
+      "sink",
+      "pizza"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000239773.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "sports ball",
+      "baseball glove"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "sports ball"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000240434.jpg",
+    "gt_words": [
+      "clock",
+      "couch",
+      "chair",
+      "person",
+      "refrigerator",
+      "handbag",
+      "cell phone",
+      "dining table",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "bowl",
+      "dining table",
+      "chair",
+      "tv",
+      "remote",
+      "book"
+    ],
+    "hallucination_words": [
+      "book",
+      "bowl",
+      "remote"
+    ],
+    "detected_hallucinations": [
+      "remote",
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000243158.jpg",
+    "gt_words": [
+      "dining table",
+      "vase",
+      "bottle",
+      "potted plant",
+      "couch"
+    ],
+    "generated_words": [
+      "couch",
+      "dining table",
+      "chair",
+      "vase",
+      "potted plant"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000244344.jpg",
+    "gt_words": [
+      "bus",
+      "bench"
+    ],
+    "generated_words": [
+      "handbag",
+      "person",
+      "bus",
+      "bicycle"
+    ],
+    "hallucination_words": [
+      "handbag",
+      "bicycle"
+    ],
+    "detected_hallucinations": [
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000244455.jpg",
+    "gt_words": [
+      "car",
+      "bicycle",
+      "motorcycle",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "motorcycle",
+      "truck",
+      "traffic light"
+    ],
+    "hallucination_words": [
+      "traffic light",
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "motorcycle",
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000245448.jpg",
+    "gt_words": [
+      "person",
+      "motorcycle",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "truck",
+      "motorcycle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000245642.jpg",
+    "gt_words": [
+      "person",
+      "sheep",
+      "bicycle"
+    ],
+    "generated_words": [
+      "person",
+      "sheep",
+      "bicycle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000246145.jpg",
+    "gt_words": [
+      "dining table",
+      "clock",
+      "chair"
+    ],
+    "generated_words": [
+      "chair",
+      "dining table",
+      "clock"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000246199.jpg",
+    "gt_words": [
+      "banana",
+      "dining table",
+      "orange"
+    ],
+    "generated_words": [
+      "orange",
+      "banana",
+      "apple"
+    ],
+    "hallucination_words": [
+      "apple"
+    ],
+    "detected_hallucinations": [
+      "orange",
+      "apple"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000246928.jpg",
+    "gt_words": [
+      "boat",
+      "bed",
+      "car",
+      "chair"
+    ],
+    "generated_words": [
+      "train",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "hallucination_words": [
+      "couch",
+      "train"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000246999.jpg",
+    "gt_words": [
+      "vase",
+      "remote",
+      "couch",
+      "chair",
+      "potted plant",
+      "tv",
+      "book"
+    ],
+    "generated_words": [
+      "couch",
+      "book",
+      "clock",
+      "chair",
+      "vase",
+      "potted plant",
+      "tv"
+    ],
+    "hallucination_words": [
+      "clock"
+    ],
+    "detected_hallucinations": [
+      "clock",
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000249715.jpg",
+    "gt_words": [
+      "person",
+      "remote",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "remote"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000252135.jpg",
+    "gt_words": [
+      "person",
+      "remote",
+      "chair",
+      "couch"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "couch",
+      "remote"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000252911.jpg",
+    "gt_words": [
+      "car",
+      "motorcycle",
+      "boat",
+      "person",
+      "stop sign"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "motorcycle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000256906.jpg",
+    "gt_words": [
+      "car",
+      "bus",
+      "traffic light",
+      "truck",
+      "person",
+      "handbag",
+      "potted plant",
+      "tie"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "chair",
+      "potted plant",
+      "bus"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000257327.jpg",
+    "gt_words": [
+      "toilet",
+      "sink",
+      "bottle"
+    ],
+    "generated_words": [
+      "toilet",
+      "bottle",
+      "sink"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000259136.jpg",
+    "gt_words": [
+      "fork",
+      "boat"
+    ],
+    "generated_words": [
+      "fork",
+      "boat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "boat"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000259755.jpg",
+    "gt_words": [
+      "baseball glove",
+      "person",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000263594.jpg",
+    "gt_words": [
+      "car",
+      "truck",
+      "bird"
+    ],
+    "generated_words": [
+      "person",
+      "bird",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000264155.jpg",
+    "gt_words": [
+      "pizza",
+      "fork",
+      "dining table",
+      "bottle",
+      "chair",
+      "knife",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "knife",
+      "dining table",
+      "bottle",
+      "chair",
+      "fork",
+      "pizza"
+    ],
+    "hallucination_words": [
+      "cell phone"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000264660.jpg",
+    "gt_words": [
+      "mouse",
+      "laptop",
+      "person",
+      "dining table",
+      "bottle",
+      "keyboard",
+      "dog",
+      "tv"
+    ],
+    "generated_words": [
+      "mouse",
+      "cell phone",
+      "dining table",
+      "tv",
+      "keyboard",
+      "clock",
+      "laptop"
+    ],
+    "hallucination_words": [
+      "clock",
+      "cell phone"
+    ],
+    "detected_hallucinations": [
+      "cell phone",
+      "clock"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000265472.jpg",
+    "gt_words": [
+      "banana",
+      "bowl",
+      "cake",
+      "orange",
+      "dining table"
+    ],
+    "generated_words": [
+      "dining table",
+      "banana"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000265719.jpg",
+    "gt_words": [
+      "fork",
+      "person",
+      "donut",
+      "spoon",
+      "cake",
+      "dining table"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "cake",
+      "chair",
+      "fork"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair",
+      "fork"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000267684.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "backpack"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000267910.jpg",
+    "gt_words": [
+      "book",
+      "cell phone",
+      "mouse",
+      "dining table",
+      "cup",
+      "laptop"
+    ],
+    "generated_words": [
+      "book",
+      "cell phone",
+      "dining table",
+      "cup",
+      "laptop"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000269600.jpg",
+    "gt_words": [
+      "clock"
+    ],
+    "generated_words": [
+      "clock"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000270609.jpg",
+    "gt_words": [
+      "cup",
+      "dining table",
+      "chair",
+      "person",
+      "orange"
+    ],
+    "generated_words": [
+      "person",
+      "orange",
+      "dining table",
+      "cup"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "orange"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000271728.jpg",
+    "gt_words": [
+      "book",
+      "cat",
+      "tv",
+      "remote",
+      "couch",
+      "orange",
+      "cup",
+      "laptop"
+    ],
+    "generated_words": [
+      "book",
+      "chair",
+      "mouse",
+      "cell phone",
+      "cat",
+      "person",
+      "dining table",
+      "tv",
+      "remote",
+      "couch",
+      "cup",
+      "laptop"
+    ],
+    "hallucination_words": [
+      "cell phone",
+      "dining table",
+      "chair",
+      "mouse"
+    ],
+    "detected_hallucinations": [
+      "mouse",
+      "cell phone"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000272430.jpg",
+    "gt_words": [
+      "person",
+      "car",
+      "traffic light",
+      "bicycle",
+      "parking meter",
+      "truck"
+    ],
+    "generated_words": [
+      "truck",
+      "fire hydrant",
+      "traffic light",
+      "car"
+    ],
+    "hallucination_words": [
+      "fire hydrant"
+    ],
+    "detected_hallucinations": [
+      "fire hydrant"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000273450.jpg",
+    "gt_words": [
+      "person",
+      "car",
+      "orange",
+      "parking meter"
+    ],
+    "generated_words": [
+      "person",
+      "parking meter",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000274655.jpg",
+    "gt_words": [
+      "fire hydrant",
+      "bus",
+      "truck"
+    ],
+    "generated_words": [
+      "fire hydrant",
+      "bus",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000275863.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "chair",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "bench",
+      "baseball bat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000276254.jpg",
+    "gt_words": [
+      "person",
+      "car",
+      "umbrella",
+      "orange",
+      "boat"
+    ],
+    "generated_words": [
+      "umbrella",
+      "person",
+      "chair",
+      "boat"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000276693.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "dog"
+    ],
+    "generated_words": [
+      "person",
+      "dog",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000277020.jpg",
+    "gt_words": [
+      "bowl",
+      "chair",
+      "person",
+      "dining table",
+      "tie",
+      "cup"
+    ],
+    "generated_words": [
+      "bowl",
+      "person",
+      "dining table",
+      "bottle",
+      "spoon",
+      "cup"
+    ],
+    "hallucination_words": [
+      "spoon",
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "bottle",
+      "spoon"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000277289.jpg",
+    "gt_words": [
+      "vase",
+      "dining table",
+      "couch",
+      "potted plant",
+      "tv"
+    ],
+    "generated_words": [
+      "couch",
+      "bowl",
+      "book",
+      "dining table",
+      "chair",
+      "remote",
+      "vase",
+      "potted plant",
+      "tv"
+    ],
+    "hallucination_words": [
+      "chair",
+      "bowl",
+      "book",
+      "remote"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "book",
+      "chair",
+      "remote"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000278226.jpg",
+    "gt_words": [
+      "person",
+      "laptop",
+      "cup",
+      "couch"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "cup",
+      "chair",
+      "laptop",
+      "book"
+    ],
+    "hallucination_words": [
+      "chair",
+      "book"
+    ],
+    "detected_hallucinations": [
+      "chair",
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000278771.jpg",
+    "gt_words": [
+      "baseball bat",
+      "bench",
+      "bottle",
+      "person",
+      "sports ball",
+      "baseball glove"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "baseball bat",
+      "sports ball",
+      "bottle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000279499.jpg",
+    "gt_words": [
+      "person",
+      "umbrella",
+      "bus"
+    ],
+    "generated_words": [
+      "person",
+      "handbag",
+      "bus"
+    ],
+    "hallucination_words": [
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000280612.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "tennis racket",
+      "sports ball"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000280734.jpg",
+    "gt_words": [
+      "person",
+      "dining table",
+      "pizza"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "pizza"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000281534.jpg",
+    "gt_words": [
+      "book",
+      "potted plant",
+      "person",
+      "bench",
+      "car",
+      "bicycle",
+      "truck"
+    ],
+    "generated_words": [
+      "book",
+      "person",
+      "car",
+      "bench",
+      "tie",
+      "bicycle"
+    ],
+    "hallucination_words": [
+      "tie"
+    ],
+    "detected_hallucinations": [
+      "book",
+      "tie"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000281766.jpg",
+    "gt_words": [
+      "person",
+      "handbag",
+      "bicycle",
+      "umbrella"
+    ],
+    "generated_words": [
+      "person",
+      "bicycle",
+      "handbag",
+      "umbrella"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000283168.jpg",
+    "gt_words": [
+      "sandwich",
+      "bowl",
+      "cup",
+      "fork"
+    ],
+    "generated_words": [
+      "bowl",
+      "sandwich",
+      "cup"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000283412.jpg",
+    "gt_words": [
+      "dining table",
+      "cup",
+      "bed",
+      "dog"
+    ],
+    "generated_words": [
+      "dog",
+      "cup"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000285235.jpg",
+    "gt_words": [
+      "bus",
+      "cow"
+    ],
+    "generated_words": [
+      "car",
+      "bus",
+      "cow",
+      "truck"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000286342.jpg",
+    "gt_words": [
+      "dining table",
+      "laptop",
+      "mouse",
+      "bed",
+      "keyboard"
+    ],
+    "generated_words": [
+      "mouse",
+      "bed",
+      "dining table",
+      "keyboard",
+      "laptop"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000287035.jpg",
+    "gt_words": [
+      "laptop",
+      "keyboard",
+      "dining table",
+      "mouse",
+      "chair",
+      "cell phone",
+      "tv"
+    ],
+    "generated_words": [
+      "cell phone",
+      "mouse",
+      "dining table",
+      "bottle",
+      "chair",
+      "keyboard",
+      "laptop",
+      "tv"
+    ],
+    "hallucination_words": [
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "bottle"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000287305.jpg",
+    "gt_words": [
+      "person",
+      "bus",
+      "car",
+      "traffic light"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "motorcycle",
+      "truck",
+      "traffic light",
+      "bus"
+    ],
+    "hallucination_words": [
+      "truck",
+      "motorcycle"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000288042.jpg",
+    "gt_words": [
+      "person",
+      "umbrella",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "bench",
+      "car",
+      "umbrella"
+    ],
+    "hallucination_words": [
+      "bench"
+    ],
+    "detected_hallucinations": [
+      "bench"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000288576.jpg",
+    "gt_words": [
+      "person",
+      "frisbee",
+      "bicycle"
+    ],
+    "generated_words": [
+      "person",
+      "frisbee",
+      "bench",
+      "bicycle"
+    ],
+    "hallucination_words": [
+      "bench"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000288639.jpg",
+    "gt_words": [
+      "cat",
+      "toothbrush",
+      "sink"
+    ],
+    "generated_words": [
+      "cat",
+      "cup",
+      "bottle",
+      "sink",
+      "toothbrush"
+    ],
+    "hallucination_words": [
+      "cup",
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "cup",
+      "bottle",
+      "toothbrush"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000291936.jpg",
+    "gt_words": [
+      "bicycle",
+      "person",
+      "umbrella"
+    ],
+    "generated_words": [
+      "person",
+      "bicycle",
+      "handbag",
+      "umbrella"
+    ],
+    "hallucination_words": [
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000293564.jpg",
+    "gt_words": [
+      "person",
+      "surfboard",
+      "umbrella"
+    ],
+    "generated_words": [
+      "person",
+      "surfboard",
+      "umbrella"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000294475.jpg",
+    "gt_words": [
+      "pizza",
+      "cup",
+      "dining table",
+      "bottle",
+      "chair",
+      "potted plant"
+    ],
+    "generated_words": [
+      "dining table",
+      "cup",
+      "bottle",
+      "chair",
+      "pizza"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000295377.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "backpack"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000297078.jpg",
+    "gt_words": [
+      "backpack",
+      "person",
+      "skis"
+    ],
+    "generated_words": [
+      "person",
+      "backpack",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000298633.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000299074.jpg",
+    "gt_words": [
+      "person",
+      "cell phone",
+      "bus"
+    ],
+    "generated_words": [
+      "person",
+      "bus"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000299986.jpg",
+    "gt_words": [
+      "person",
+      "cell phone",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "bench"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000300368.jpg",
+    "gt_words": [
+      "dining table",
+      "person",
+      "knife",
+      "cake"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "cake",
+      "chair",
+      "vase",
+      "knife"
+    ],
+    "hallucination_words": [
+      "chair",
+      "vase"
+    ],
+    "detected_hallucinations": [
+      "chair",
+      "vase",
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000300876.jpg",
+    "gt_words": [
+      "bowl",
+      "cup",
+      "dining table",
+      "chair",
+      "knife",
+      "person",
+      "handbag",
+      "cake"
+    ],
+    "generated_words": [
+      "person",
+      "backpack",
+      "dining table",
+      "cup",
+      "spoon",
+      "bottle",
+      "chair",
+      "vase",
+      "fork",
+      "knife"
+    ],
+    "hallucination_words": [
+      "backpack",
+      "spoon",
+      "bottle",
+      "vase",
+      "fork"
+    ],
+    "detected_hallucinations": [
+      "backpack",
+      "spoon",
+      "bottle",
+      "fork"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000301575.jpg",
+    "gt_words": [
+      "couch",
+      "chair",
+      "person",
+      "potted plant",
+      "cat",
+      "book",
+      "tv"
+    ],
+    "generated_words": [
+      "cat",
+      "book",
+      "chair",
+      "vase",
+      "tv"
+    ],
+    "hallucination_words": [
+      "vase"
+    ],
+    "detected_hallucinations": [
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000302405.jpg",
+    "gt_words": [
+      "person",
+      "backpack",
+      "snowboard"
+    ],
+    "generated_words": [
+      "person",
+      "backpack",
+      "snowboard"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000303099.jpg",
+    "gt_words": [
+      "toilet",
+      "bottle",
+      "cat"
+    ],
+    "generated_words": [
+      "cat",
+      "toilet"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000303534.jpg",
+    "gt_words": [
+      "backpack",
+      "cup",
+      "chair",
+      "bed",
+      "book",
+      "tv",
+      "handbag",
+      "laptop"
+    ],
+    "generated_words": [
+      "handbag",
+      "backpack",
+      "bed",
+      "book",
+      "mouse",
+      "chair",
+      "laptop",
+      "tv"
+    ],
+    "hallucination_words": [
+      "mouse"
+    ],
+    "detected_hallucinations": [
+      "mouse"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000303652.jpg",
+    "gt_words": [
+      "cup",
+      "dining table",
+      "knife",
+      "spoon",
+      "sandwich"
+    ],
+    "generated_words": [
+      "dining table",
+      "cup",
+      "cake",
+      "sandwich",
+      "pizza",
+      "fork"
+    ],
+    "hallucination_words": [
+      "fork",
+      "cake",
+      "pizza"
+    ],
+    "detected_hallucinations": [
+      "pizza",
+      "fork"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000303971.jpg",
+    "gt_words": [
+      "person",
+      "remote",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "bowl",
+      "book",
+      "dining table",
+      "chair",
+      "remote",
+      "tv"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "couch",
+      "dining table",
+      "chair",
+      "book"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "book",
+      "dining table"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000304387.jpg",
+    "gt_words": [
+      "kite",
+      "surfboard",
+      "person",
+      "skis"
+    ],
+    "generated_words": [
+      "person",
+      "surfboard",
+      "kite"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "kite"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000304819.jpg",
+    "gt_words": [
+      "dining table",
+      "laptop",
+      "cat",
+      "tv"
+    ],
+    "generated_words": [
+      "cat",
+      "tv",
+      "dining table",
+      "book"
+    ],
+    "hallucination_words": [
+      "book"
+    ],
+    "detected_hallucinations": [
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000307262.jpg",
+    "gt_words": [
+      "pizza",
+      "bowl",
+      "fork",
+      "bottle",
+      "orange"
+    ],
+    "generated_words": [
+      "pizza"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000308907.jpg",
+    "gt_words": [
+      "person",
+      "potted plant",
+      "traffic light",
+      "bicycle"
+    ],
+    "generated_words": [
+      "person",
+      "fire hydrant",
+      "bicycle",
+      "motorcycle",
+      "traffic light"
+    ],
+    "hallucination_words": [
+      "fire hydrant",
+      "motorcycle"
+    ],
+    "detected_hallucinations": [
+      "bicycle",
+      "motorcycle"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000309371.jpg",
+    "gt_words": [
+      "backpack",
+      "person",
+      "cup",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "bench",
+      "backpack"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000310196.jpg",
+    "gt_words": [
+      "person",
+      "snowboard",
+      "skis"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000311327.jpg",
+    "gt_words": [
+      "handbag",
+      "person",
+      "boat"
+    ],
+    "generated_words": [
+      "person",
+      "boat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000312406.jpg",
+    "gt_words": [
+      "dining table",
+      "bowl",
+      "cup",
+      "banana",
+      "spoon"
+    ],
+    "generated_words": [
+      "spoon",
+      "bowl",
+      "dining table",
+      "banana"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000313034.jpg",
+    "gt_words": [
+      "cup",
+      "vase",
+      "fork",
+      "bottle",
+      "clock",
+      "person",
+      "cake"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "bottle",
+      "clock",
+      "chair",
+      "vase",
+      "book"
+    ],
+    "hallucination_words": [
+      "chair",
+      "couch",
+      "book"
+    ],
+    "detected_hallucinations": [
+      "couch",
+      "chair",
+      "vase",
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000313162.jpg",
+    "gt_words": [
+      "dining table",
+      "cup",
+      "pizza"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "pizza",
+      "cup"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000314992.jpg",
+    "gt_words": [
+      "person",
+      "handbag",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "handbag"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000316237.jpg",
+    "gt_words": [
+      "person",
+      "handbag",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "handbag"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000316700.jpg",
+    "gt_words": [
+      "bowl",
+      "fork",
+      "dining table",
+      "knife",
+      "sandwich",
+      "broccoli",
+      "cup",
+      "orange"
+    ],
+    "generated_words": [
+      "bowl",
+      "dining table",
+      "cup",
+      "bottle",
+      "sandwich",
+      "knife",
+      "fork"
+    ],
+    "hallucination_words": [
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "bottle"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000318204.jpg",
+    "gt_words": [
+      "person",
+      "umbrella",
+      "dog"
+    ],
+    "generated_words": [
+      "person",
+      "dog",
+      "boat"
+    ],
+    "hallucination_words": [
+      "boat"
+    ],
+    "detected_hallucinations": [
+      "boat"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000318209.jpg",
+    "gt_words": [
+      "fork",
+      "dining table",
+      "sandwich",
+      "refrigerator",
+      "chair",
+      "cat"
+    ],
+    "generated_words": [
+      "refrigerator",
+      "dog",
+      "dining table",
+      "chair",
+      "sandwich",
+      "fork"
+    ],
+    "hallucination_words": [
+      "dog"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000318550.jpg",
+    "gt_words": [
+      "train",
+      "car",
+      "truck",
+      "traffic light"
+    ],
+    "generated_words": [
+      "truck",
+      "traffic light",
+      "car",
+      "train"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000323752.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000325347.jpg",
+    "gt_words": [
+      "chair",
+      "person",
+      "tennis racket",
+      "backpack",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "backpack",
+      "tennis racket",
+      "sports ball",
+      "chair"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000327038.jpg",
+    "gt_words": [
+      "fork",
+      "knife",
+      "person",
+      "spoon",
+      "pizza"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "spoon",
+      "bottle",
+      "cup",
+      "pizza",
+      "knife"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "bottle",
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "bottle",
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000328301.jpg",
+    "gt_words": [
+      "boat",
+      "car",
+      "fire hydrant"
+    ],
+    "generated_words": [
+      "person",
+      "bench",
+      "boat",
+      "car"
+    ],
+    "hallucination_words": [
+      "bench"
+    ],
+    "detected_hallucinations": [
+      "bench"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000331366.jpg",
+    "gt_words": [
+      "car",
+      "bicycle",
+      "umbrella",
+      "truck",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella",
+      "bicycle",
+      "truck"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000332025.jpg",
+    "gt_words": [
+      "backpack",
+      "skis",
+      "dog",
+      "snowboard",
+      "person",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "dog",
+      "snowboard"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000332625.jpg",
+    "gt_words": [
+      "person",
+      "airplane",
+      "chair",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "airplane"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000332908.jpg",
+    "gt_words": [
+      "bowl",
+      "oven",
+      "bottle"
+    ],
+    "generated_words": [
+      "bowl",
+      "spoon",
+      "bottle",
+      "clock",
+      "chair",
+      "sink"
+    ],
+    "hallucination_words": [
+      "chair",
+      "spoon",
+      "sink",
+      "clock"
+    ],
+    "detected_hallucinations": [
+      "spoon",
+      "clock",
+      "chair",
+      "sink"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000333756.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000337502.jpg",
+    "gt_words": [
+      "pizza",
+      "oven",
+      "broccoli"
+    ],
+    "generated_words": [
+      "pizza",
+      "oven"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000338291.jpg",
+    "gt_words": [
+      "backpack",
+      "person",
+      "snowboard",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "bench",
+      "snowboard"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000345027.jpg",
+    "gt_words": [
+      "umbrella",
+      "motorcycle",
+      "chair",
+      "person",
+      "bench",
+      "kite",
+      "boat",
+      "car",
+      "truck"
+    ],
+    "generated_words": [
+      "boat",
+      "person",
+      "bench",
+      "motorcycle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000346112.jpg",
+    "gt_words": [
+      "bed",
+      "cat"
+    ],
+    "generated_words": [
+      "bed",
+      "cat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000346707.jpg",
+    "gt_words": [
+      "person",
+      "bowl",
+      "banana"
+    ],
+    "generated_words": [
+      "potted plant",
+      "banana"
+    ],
+    "hallucination_words": [
+      "potted plant"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000348469.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "bird"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball",
+      "baseball bat"
+    ],
+    "hallucination_words": [
+      "sports ball"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000348524.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "generated_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000349936.jpg",
+    "gt_words": [
+      "cup",
+      "dining table",
+      "couch",
+      "chair",
+      "oven",
+      "book",
+      "cake",
+      "tv"
+    ],
+    "generated_words": [
+      "couch",
+      "bowl",
+      "dining table",
+      "cup",
+      "chair",
+      "vase",
+      "potted plant",
+      "tv"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "vase",
+      "potted plant"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "vase",
+      "potted plant"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000353096.jpg",
+    "gt_words": [
+      "laptop",
+      "keyboard",
+      "apple",
+      "dining table",
+      "mouse",
+      "tv"
+    ],
+    "generated_words": [
+      "cell phone",
+      "mouse",
+      "dining table",
+      "keyboard",
+      "laptop",
+      "tv"
+    ],
+    "hallucination_words": [
+      "cell phone"
+    ],
+    "detected_hallucinations": [
+      "cell phone"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000353180.jpg",
+    "gt_words": [
+      "backpack",
+      "bus",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "bus"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000353317.jpg",
+    "gt_words": [
+      "microwave",
+      "bowl",
+      "dining table",
+      "sink",
+      "chair",
+      "person",
+      "oven",
+      "book",
+      "handbag",
+      "refrigerator"
+    ],
+    "generated_words": [
+      "microwave",
+      "dining table",
+      "bowl",
+      "spoon",
+      "sink",
+      "chair",
+      "oven",
+      "book",
+      "handbag",
+      "refrigerator",
+      "backpack",
+      "cup"
+    ],
+    "hallucination_words": [
+      "backpack",
+      "spoon",
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "spoon",
+      "sink",
+      "oven",
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000354088.jpg",
+    "gt_words": [
+      "car",
+      "apple",
+      "umbrella",
+      "bus",
+      "dining table",
+      "person",
+      "orange",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella",
+      "handbag",
+      "truck",
+      "bus"
+    ],
+    "hallucination_words": [
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000354229.jpg",
+    "gt_words": [
+      "person",
+      "bus",
+      "car"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "bus"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000354398.jpg",
+    "gt_words": [
+      "car",
+      "dog",
+      "person",
+      "tie"
+    ],
+    "generated_words": [
+      "person",
+      "dog",
+      "truck"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000354976.jpg",
+    "gt_words": [
+      "laptop",
+      "dining table",
+      "mouse",
+      "clock",
+      "chair",
+      "person",
+      "cell phone",
+      "book",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "mouse",
+      "dining table",
+      "tv",
+      "laptop",
+      "keyboard",
+      "book"
+    ],
+    "hallucination_words": [
+      "keyboard"
+    ],
+    "detected_hallucinations": [
+      "keyboard"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000355256.jpg",
+    "gt_words": [
+      "microwave",
+      "bottle",
+      "chair",
+      "donut",
+      "person",
+      "hot dog",
+      "refrigerator"
+    ],
+    "generated_words": [
+      "person",
+      "microwave",
+      "hot dog",
+      "bottle",
+      "chair"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000355297.jpg",
+    "gt_words": [
+      "person",
+      "surfboard"
+    ],
+    "generated_words": [
+      "person",
+      "surfboard"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000355342.jpg",
+    "gt_words": [
+      "person",
+      "umbrella",
+      "orange"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000355776.jpg",
+    "gt_words": [
+      "sink",
+      "cup",
+      "toothbrush",
+      "chair",
+      "person",
+      "bottle"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "bottle",
+      "sink"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000356424.jpg",
+    "gt_words": [
+      "car",
+      "cup",
+      "dining table",
+      "bottle",
+      "chair",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "cup",
+      "spoon",
+      "car",
+      "chair",
+      "fork",
+      "knife"
+    ],
+    "hallucination_words": [
+      "fork",
+      "spoon",
+      "knife"
+    ],
+    "detected_hallucinations": [
+      "chair",
+      "fork",
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000358090.jpg",
+    "gt_words": [
+      "snowboard",
+      "person",
+      "skis",
+      "backpack"
+    ],
+    "generated_words": [
+      "snowboard",
+      "person"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000358268.jpg",
+    "gt_words": [
+      "remote",
+      "tie",
+      "person",
+      "potted plant",
+      "couch"
+    ],
+    "generated_words": [
+      "couch",
+      "remote",
+      "person",
+      "potted plant"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000358296.jpg",
+    "gt_words": [
+      "snowboard",
+      "surfboard",
+      "skis",
+      "person"
+    ],
+    "generated_words": [
+      "snowboard",
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000358345.jpg",
+    "gt_words": [
+      "dog",
+      "person",
+      "car",
+      "fire hydrant"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "fire hydrant"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000360600.jpg",
+    "gt_words": [
+      "fork",
+      "person",
+      "pizza",
+      "knife"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "spoon",
+      "dining table",
+      "cup",
+      "pizza",
+      "knife"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "dining table",
+      "spoon",
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "dining table",
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000361430.jpg",
+    "gt_words": [
+      "bowl",
+      "carrot",
+      "knife",
+      "oven",
+      "broccoli",
+      "spoon"
+    ],
+    "generated_words": [
+      "spoon",
+      "broccoli",
+      "oven",
+      "carrot"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000363908.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "sports ball",
+      "baseball glove"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "bench",
+      "baseball bat",
+      "sports ball"
+    ],
+    "hallucination_words": [
+      "bench"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000365317.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000365822.jpg",
+    "gt_words": [
+      "vase",
+      "bottle",
+      "chair",
+      "potted plant",
+      "cup",
+      "oven"
+    ],
+    "generated_words": [
+      "bowl",
+      "oven",
+      "refrigerator",
+      "dining table",
+      "cup",
+      "bottle",
+      "chair",
+      "vase",
+      "sink",
+      "potted plant"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "dining table",
+      "refrigerator",
+      "sink"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "dining table",
+      "sink"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000367528.jpg",
+    "gt_words": [
+      "cup",
+      "vase",
+      "remote",
+      "dining table",
+      "person",
+      "potted plant",
+      "book",
+      "tv"
+    ],
+    "generated_words": [
+      "bowl",
+      "book",
+      "dining table",
+      "cup",
+      "vase",
+      "tv"
+    ],
+    "hallucination_words": [
+      "bowl"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000368541.jpg",
+    "gt_words": [
+      "backpack",
+      "suitcase",
+      "truck",
+      "bottle",
+      "person",
+      "handbag",
+      "airplane"
+    ],
+    "generated_words": [
+      "person",
+      "suitcase",
+      "handbag",
+      "airplane",
+      "truck",
+      "bus"
+    ],
+    "hallucination_words": [
+      "bus"
+    ],
+    "detected_hallucinations": [
+      "bus"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000369541.jpg",
+    "gt_words": [
+      "person",
+      "dog",
+      "frisbee"
+    ],
+    "generated_words": [
+      "person",
+      "frisbee",
+      "dog"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000369771.jpg",
+    "gt_words": [
+      "bowl",
+      "fork",
+      "dining table",
+      "sandwich",
+      "broccoli"
+    ],
+    "generated_words": [
+      "dining table",
+      "bowl",
+      "sandwich",
+      "carrot",
+      "spoon"
+    ],
+    "hallucination_words": [
+      "carrot",
+      "spoon"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "carrot"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000370900.jpg",
+    "gt_words": [
+      "dining table",
+      "teddy bear",
+      "tie",
+      "bear"
+    ],
+    "generated_words": [
+      "teddy bear",
+      "dining table",
+      "bear"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000371058.jpg",
+    "gt_words": [
+      "backpack",
+      "pizza",
+      "person",
+      "book",
+      "skateboard"
+    ],
+    "generated_words": [
+      "book",
+      "cell phone",
+      "person",
+      "skateboard"
+    ],
+    "hallucination_words": [
+      "cell phone"
+    ],
+    "detected_hallucinations": [
+      "cell phone"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000372009.jpg",
+    "gt_words": [
+      "bed",
+      "teddy bear",
+      "bird"
+    ],
+    "generated_words": [
+      "teddy bear",
+      "bed"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000372817.jpg",
+    "gt_words": [
+      "person",
+      "handbag",
+      "umbrella",
+      "car",
+      "backpack"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella",
+      "handbag",
+      "backpack",
+      "car",
+      "traffic light"
+    ],
+    "hallucination_words": [
+      "traffic light"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000372819.jpg",
+    "gt_words": [
+      "person",
+      "dining table",
+      "dog",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "dog",
+      "bench"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000374061.jpg",
+    "gt_words": [
+      "teddy bear",
+      "bed",
+      "bear",
+      "cat"
+    ],
+    "generated_words": [
+      "cat",
+      "teddy bear",
+      "couch"
+    ],
+    "hallucination_words": [
+      "couch"
+    ],
+    "detected_hallucinations": [
+      "couch"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000375909.jpg",
+    "gt_words": [
+      "refrigerator",
+      "bed",
+      "couch",
+      "chair"
+    ],
+    "generated_words": [
+      "couch",
+      "bowl",
+      "oven",
+      "refrigerator",
+      "bed",
+      "dining table",
+      "bottle",
+      "cup",
+      "chair",
+      "sink"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "oven",
+      "dining table",
+      "cup",
+      "bottle",
+      "sink"
+    ],
+    "detected_hallucinations": [
+      "oven",
+      "bed",
+      "dining table",
+      "bottle",
+      "cup",
+      "sink"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000376322.jpg",
+    "gt_words": [
+      "dining table",
+      "fork",
+      "bottle",
+      "person",
+      "wine glass",
+      "cell phone",
+      "cake",
+      "knife",
+      "spoon",
+      "cup"
+    ],
+    "generated_words": [
+      "dining table",
+      "fork",
+      "chair",
+      "person",
+      "wine glass",
+      "knife",
+      "spoon",
+      "cup"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair",
+      "knife",
+      "spoon"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000376959.jpg",
+    "gt_words": [
+      "person",
+      "dining table",
+      "cell phone",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "cell phone",
+      "dining table"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000377352.jpg",
+    "gt_words": [
+      "person",
+      "motorcycle",
+      "car",
+      "bicycle"
+    ],
+    "generated_words": [
+      "car",
+      "motorcycle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000377879.jpg",
+    "gt_words": [
+      "bed",
+      "truck",
+      "train"
+    ],
+    "generated_words": [
+      "train"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000377951.jpg",
+    "gt_words": [
+      "person",
+      "dining table",
+      "pizza",
+      "cup"
+    ],
+    "generated_words": [
+      "person",
+      "knife",
+      "dining table",
+      "cup",
+      "fork",
+      "pizza"
+    ],
+    "hallucination_words": [
+      "fork",
+      "knife"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000378751.jpg",
+    "gt_words": [
+      "remote",
+      "couch",
+      "chair",
+      "tv",
+      "cat"
+    ],
+    "generated_words": [
+      "cat",
+      "couch",
+      "remote"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000378873.jpg",
+    "gt_words": [
+      "bowl",
+      "dining table",
+      "carrot",
+      "truck",
+      "person",
+      "handbag",
+      "orange"
+    ],
+    "generated_words": [
+      "person"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000379162.jpg",
+    "gt_words": [
+      "bottle",
+      "chair",
+      "person",
+      "handbag",
+      "tennis racket",
+      "backpack"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "backpack",
+      "tennis racket"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000379404.jpg",
+    "gt_words": [
+      "sandwich",
+      "dining table",
+      "banana"
+    ],
+    "generated_words": [
+      "sandwich",
+      "banana"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000381195.jpg",
+    "gt_words": [
+      "dining table",
+      "bowl",
+      "broccoli"
+    ],
+    "generated_words": [
+      "bowl",
+      "dining table",
+      "broccoli"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000381895.jpg",
+    "gt_words": [
+      "teddy bear",
+      "bear",
+      "person"
+    ],
+    "generated_words": [
+      "teddy bear",
+      "person"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000382617.jpg",
+    "gt_words": [
+      "dining table",
+      "book",
+      "mouse",
+      "cup"
+    ],
+    "generated_words": [
+      "book",
+      "scissors"
+    ],
+    "hallucination_words": [
+      "scissors"
+    ],
+    "detected_hallucinations": [
+      "scissors"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000382670.jpg",
+    "gt_words": [
+      "bicycle",
+      "boat",
+      "person",
+      "cow",
+      "potted plant"
+    ],
+    "generated_words": [
+      "person",
+      "boat",
+      "cow"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000383185.jpg",
+    "gt_words": [
+      "cup",
+      "banana",
+      "bottle",
+      "knife"
+    ],
+    "generated_words": [
+      "bowl",
+      "spoon",
+      "bottle",
+      "cup",
+      "knife",
+      "banana"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "spoon"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "spoon",
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000384040.jpg",
+    "gt_words": [
+      "cup",
+      "fork",
+      "dining table",
+      "bottle",
+      "knife",
+      "donut",
+      "sandwich",
+      "spoon"
+    ],
+    "generated_words": [
+      "sandwich",
+      "dining table",
+      "cup",
+      "fork"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000384970.jpg",
+    "gt_words": [
+      "car",
+      "motorcycle",
+      "truck",
+      "person",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "motorcycle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000388237.jpg",
+    "gt_words": [
+      "skateboard",
+      "person",
+      "bottle",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "skateboard",
+      "bench",
+      "umbrella"
+    ],
+    "hallucination_words": [
+      "umbrella",
+      "bench"
+    ],
+    "detected_hallucinations": [
+      "bench",
+      "umbrella"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000388983.jpg",
+    "gt_words": [
+      "bowl",
+      "dining table",
+      "hot dog",
+      "person",
+      "sandwich"
+    ],
+    "generated_words": [
+      "bowl",
+      "hot dog",
+      "dining table",
+      "cup",
+      "chair"
+    ],
+    "hallucination_words": [
+      "chair",
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "cup",
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000390157.jpg",
+    "gt_words": [
+      "person",
+      "dining table",
+      "bottle",
+      "cup",
+      "wine glass"
+    ],
+    "generated_words": [
+      "person",
+      "wine glass",
+      "dining table",
+      "cup",
+      "bottle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000390184.jpg",
+    "gt_words": [
+      "microwave",
+      "dining table",
+      "chair",
+      "oven",
+      "spoon"
+    ],
+    "generated_words": [
+      "bowl",
+      "wine glass",
+      "refrigerator",
+      "microwave",
+      "toaster",
+      "dining table",
+      "cup",
+      "bottle",
+      "chair",
+      "vase",
+      "sink",
+      "potted plant"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "wine glass",
+      "refrigerator",
+      "toaster",
+      "cup",
+      "bottle",
+      "vase",
+      "sink",
+      "potted plant"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "wine glass",
+      "refrigerator",
+      "toaster",
+      "cup",
+      "vase",
+      "sink",
+      "potted plant"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000391735.jpg",
+    "gt_words": [
+      "person",
+      "traffic light",
+      "dining table",
+      "toothbrush"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "bicycle",
+      "chair",
+      "truck",
+      "traffic light"
+    ],
+    "hallucination_words": [
+      "chair",
+      "bicycle",
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "bicycle",
+      "chair",
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000392364.jpg",
+    "gt_words": [
+      "person",
+      "traffic light",
+      "car",
+      "horse"
+    ],
+    "generated_words": [
+      "person",
+      "horse",
+      "car",
+      "clock",
+      "traffic light"
+    ],
+    "hallucination_words": [
+      "clock"
+    ],
+    "detected_hallucinations": [
+      "clock"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000396068.jpg",
+    "gt_words": [
+      "person",
+      "remote",
+      "bottle",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "handbag",
+      "dining table",
+      "bottle",
+      "chair",
+      "remote",
+      "tv"
+    ],
+    "hallucination_words": [
+      "chair",
+      "dining table",
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag",
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000396338.jpg",
+    "gt_words": [
+      "backpack",
+      "car",
+      "motorcycle",
+      "truck",
+      "person",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "handbag",
+      "truck",
+      "car",
+      "bus"
+    ],
+    "hallucination_words": [
+      "bus"
+    ],
+    "detected_hallucinations": [
+      "bus"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000397665.jpg",
+    "gt_words": [
+      "car",
+      "bicycle",
+      "motorcycle",
+      "bus",
+      "person",
+      "handbag",
+      "orange"
+    ],
+    "generated_words": [
+      "person",
+      "bicycle",
+      "handbag",
+      "motorcycle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000397705.jpg",
+    "gt_words": [
+      "cup",
+      "person",
+      "bed",
+      "book",
+      "cat"
+    ],
+    "generated_words": [
+      "person",
+      "cat",
+      "bed",
+      "clock",
+      "chair",
+      "tv",
+      "remote",
+      "book"
+    ],
+    "hallucination_words": [
+      "chair",
+      "tv",
+      "remote",
+      "clock"
+    ],
+    "detected_hallucinations": [
+      "clock",
+      "chair",
+      "remote"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000399702.jpg",
+    "gt_words": [
+      "sandwich",
+      "dining table",
+      "bowl",
+      "cup"
+    ],
+    "generated_words": [
+      "sandwich",
+      "dining table",
+      "cup"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000401398.jpg",
+    "gt_words": [
+      "teddy bear",
+      "vase",
+      "person",
+      "potted plant",
+      "bear",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "teddy bear",
+      "chair",
+      "potted plant"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000405205.jpg",
+    "gt_words": [
+      "person",
+      "bus",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "truck",
+      "bus"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000405740.jpg",
+    "gt_words": [
+      "person",
+      "laptop",
+      "cup",
+      "wine glass",
+      "dining table",
+      "desk"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "laptop",
+      "wine glass"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000405762.jpg",
+    "gt_words": [
+      "person",
+      "car",
+      "truck",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000406403.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000410597.jpg",
+    "gt_words": [
+      "cup",
+      "wine glass",
+      "dining table",
+      "person",
+      "cake",
+      "cell phone",
+      "tie"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "wine glass",
+      "dining table",
+      "cake",
+      "cup",
+      "tie",
+      "fork"
+    ],
+    "hallucination_words": [
+      "fork"
+    ],
+    "detected_hallucinations": [
+      "fork"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000414516.jpg",
+    "gt_words": [
+      "dining table",
+      "elephant",
+      "chair",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "bench",
+      "elephant"
+    ],
+    "hallucination_words": [
+      "bench"
+    ],
+    "detected_hallucinations": [
+      "bench"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000415727.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "backpack",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "bench",
+      "baseball bat",
+      "sports ball"
+    ],
+    "hallucination_words": [
+      "baseball glove",
+      "sports ball"
+    ],
+    "detected_hallucinations": [
+      "sports ball"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000418471.jpg",
+    "gt_words": [
+      "pizza",
+      "cup",
+      "dining table",
+      "chair",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "dining table",
+      "cup",
+      "chair",
+      "pizza"
+    ],
+    "hallucination_words": [
+      "bowl"
+    ],
+    "detected_hallucinations": [
+      "bowl"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000418680.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "generated_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000421455.jpg",
+    "gt_words": [
+      "cell phone",
+      "person",
+      "car",
+      "truck",
+      "dog"
+    ],
+    "generated_words": [
+      "person",
+      "dog",
+      "cell phone",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000422516.jpg",
+    "gt_words": [
+      "cup",
+      "bowl",
+      "pizza",
+      "dining table",
+      "fork",
+      "person",
+      "bottle"
+    ],
+    "generated_words": [
+      "cup",
+      "pizza",
+      "dining table",
+      "person",
+      "bottle",
+      "chair"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000424585.jpg",
+    "gt_words": [
+      "person",
+      "bed",
+      "car",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "truck"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000424792.jpg",
+    "gt_words": [
+      "chair",
+      "couch",
+      "cat",
+      "bed",
+      "dining table"
+    ],
+    "generated_words": [
+      "cat",
+      "couch",
+      "dining table",
+      "vase"
+    ],
+    "hallucination_words": [
+      "vase"
+    ],
+    "detected_hallucinations": [
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000427113.jpg",
+    "gt_words": [
+      "person",
+      "clock",
+      "chair",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "bench"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000429033.jpg",
+    "gt_words": [
+      "person",
+      "laptop",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "laptop"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000429109.jpg",
+    "gt_words": [
+      "person",
+      "train",
+      "car",
+      "bicycle",
+      "bus"
+    ],
+    "generated_words": [
+      "person",
+      "bicycle",
+      "car",
+      "truck",
+      "traffic light",
+      "bus"
+    ],
+    "hallucination_words": [
+      "traffic light",
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000429580.jpg",
+    "gt_words": [
+      "person",
+      "dog",
+      "frisbee"
+    ],
+    "generated_words": [
+      "person",
+      "frisbee",
+      "dog",
+      "chair"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000429706.jpg",
+    "gt_words": [
+      "backpack",
+      "suitcase",
+      "person",
+      "handbag",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "tv",
+      "suitcase",
+      "handbag"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000429913.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "baseball glove"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "bench",
+      "baseball bat",
+      "sports ball",
+      "chair"
+    ],
+    "hallucination_words": [
+      "chair",
+      "bench",
+      "sports ball"
+    ],
+    "detected_hallucinations": [
+      "baseball glove",
+      "bench",
+      "sports ball",
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000429985.jpg",
+    "gt_words": [
+      "cup",
+      "knife",
+      "dining table",
+      "cake",
+      "person",
+      "bottle",
+      "chair"
+    ],
+    "generated_words": [
+      "knife",
+      "dining table",
+      "cake",
+      "person",
+      "bottle",
+      "chair"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000430052.jpg",
+    "gt_words": [
+      "dining table",
+      "bottle",
+      "vase",
+      "bird"
+    ],
+    "generated_words": [
+      "dining table",
+      "vase",
+      "bottle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000431615.jpg",
+    "gt_words": [
+      "person",
+      "boat",
+      "dog"
+    ],
+    "generated_words": [
+      "person",
+      "boat",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000433574.jpg",
+    "gt_words": [
+      "dining table",
+      "chair",
+      "couch",
+      "person",
+      "cell phone",
+      "book"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "cell phone",
+      "chair",
+      "laptop",
+      "book"
+    ],
+    "hallucination_words": [
+      "laptop"
+    ],
+    "detected_hallucinations": [
+      "laptop"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000434179.jpg",
+    "gt_words": [
+      "dining table",
+      "cup",
+      "chair",
+      "spoon"
+    ],
+    "generated_words": [
+      "spoon",
+      "dining table",
+      "cup",
+      "chair",
+      "knife"
+    ],
+    "hallucination_words": [
+      "knife"
+    ],
+    "detected_hallucinations": [
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000436127.jpg",
+    "gt_words": [
+      "car",
+      "bus",
+      "clock",
+      "horse",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "bus",
+      "horse"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000437347.jpg",
+    "gt_words": [
+      "baseball glove",
+      "person",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "bicycle",
+      "baseball bat"
+    ],
+    "hallucination_words": [
+      "bicycle",
+      "baseball bat"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000441156.jpg",
+    "gt_words": [
+      "backpack",
+      "handbag",
+      "person",
+      "elephant"
+    ],
+    "generated_words": [
+      "person",
+      "elephant",
+      "backpack"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000442809.jpg",
+    "gt_words": [
+      "cake",
+      "cup",
+      "bottle"
+    ],
+    "generated_words": [
+      "spoon",
+      "bowl",
+      "cake"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "spoon"
+    ],
+    "detected_hallucinations": [
+      "spoon",
+      "bowl",
+      "cake"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000445200.jpg",
+    "gt_words": [
+      "bowl",
+      "cup",
+      "dining table",
+      "carrot",
+      "knife",
+      "broccoli",
+      "sandwich"
+    ],
+    "generated_words": [
+      "bowl",
+      "dining table",
+      "cup",
+      "carrot",
+      "sandwich",
+      "knife"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000446651.jpg",
+    "gt_words": [
+      "person",
+      "motorcycle",
+      "car"
+    ],
+    "generated_words": [
+      "person",
+      "truck",
+      "car",
+      "motorcycle"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000447787.jpg",
+    "gt_words": [
+      "bowl",
+      "microwave",
+      "carrot",
+      "bottle",
+      "person",
+      "cake"
+    ],
+    "generated_words": [
+      "person",
+      "oven",
+      "refrigerator",
+      "bottle",
+      "broccoli",
+      "sink",
+      "carrot"
+    ],
+    "hallucination_words": [
+      "refrigerator",
+      "broccoli",
+      "oven",
+      "sink"
+    ],
+    "detected_hallucinations": [
+      "oven",
+      "refrigerator",
+      "broccoli",
+      "sink"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000449432.jpg",
+    "gt_words": [
+      "backpack",
+      "train",
+      "suitcase",
+      "bus",
+      "boat",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "handbag",
+      "backpack",
+      "bus"
+    ],
+    "hallucination_words": [
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000452297.jpg",
+    "gt_words": [
+      "bowl",
+      "cup",
+      "banana",
+      "spoon",
+      "dining table"
+    ],
+    "generated_words": [
+      "spoon",
+      "bowl",
+      "dining table"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000454607.jpg",
+    "gt_words": [
+      "person",
+      "apple",
+      "cell phone",
+      "book"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "book",
+      "apple"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000456178.jpg",
+    "gt_words": [
+      "traffic light",
+      "person",
+      "car",
+      "clock",
+      "truck",
+      "bicycle"
+    ],
+    "generated_words": [
+      "person",
+      "bicycle",
+      "car",
+      "clock",
+      "truck"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000456552.jpg",
+    "gt_words": [
+      "skateboard",
+      "person",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "skateboard",
+      "bench"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000458325.jpg",
+    "gt_words": [
+      "person",
+      "skateboard",
+      "traffic light",
+      "car"
+    ],
+    "generated_words": [
+      "person",
+      "skateboard",
+      "handbag",
+      "car",
+      "traffic light"
+    ],
+    "hallucination_words": [
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000458338.jpg",
+    "gt_words": [
+      "car",
+      "person",
+      "traffic light",
+      "clock",
+      "motorcycle",
+      "potted plant"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "potted plant",
+      "motorcycle",
+      "traffic light"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000459680.jpg",
+    "gt_words": [
+      "person",
+      "umbrella",
+      "orange"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000460684.jpg",
+    "gt_words": [
+      "wine glass",
+      "dining table",
+      "person",
+      "handbag",
+      "bottle",
+      "chair"
+    ],
+    "generated_words": [
+      "wine glass",
+      "dining table",
+      "handbag",
+      "bottle",
+      "chair"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "bottle"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000460931.jpg",
+    "gt_words": [
+      "person",
+      "cake",
+      "donut"
+    ],
+    "generated_words": [
+      "donut"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000461331.jpg",
+    "gt_words": [
+      "toaster",
+      "tv",
+      "oven",
+      "microwave"
+    ],
+    "generated_words": [
+      "backpack",
+      "oven",
+      "microwave",
+      "toaster"
+    ],
+    "hallucination_words": [
+      "backpack"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000462805.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000463522.jpg",
+    "gt_words": [
+      "backpack",
+      "bicycle",
+      "dog",
+      "horse",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "handbag",
+      "horse"
+    ],
+    "hallucination_words": [
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000463542.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "generated_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000465275.jpg",
+    "gt_words": [
+      "vase",
+      "remote",
+      "clock",
+      "couch",
+      "chair",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "couch",
+      "remote"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000465346.jpg",
+    "gt_words": [
+      "fork",
+      "dining table",
+      "sandwich",
+      "spoon"
+    ],
+    "generated_words": [
+      "dining table",
+      "cup",
+      "sandwich",
+      "knife",
+      "fork"
+    ],
+    "hallucination_words": [
+      "knife",
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000465418.jpg",
+    "gt_words": [
+      "person",
+      "bus",
+      "potted plant",
+      "traffic light"
+    ],
+    "generated_words": [
+      "person",
+      "fire hydrant",
+      "potted plant",
+      "bus",
+      "traffic light"
+    ],
+    "hallucination_words": [
+      "fire hydrant"
+    ],
+    "detected_hallucinations": [
+      "fire hydrant"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000467176.jpg",
+    "gt_words": [
+      "cup",
+      "remote",
+      "couch",
+      "chair",
+      "person",
+      "book",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "book",
+      "chair",
+      "remote",
+      "tv"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000467887.jpg",
+    "gt_words": [
+      "laptop",
+      "dining table",
+      "mouse",
+      "chair",
+      "couch",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "bottle",
+      "cup",
+      "clock",
+      "chair",
+      "vase",
+      "laptop"
+    ],
+    "hallucination_words": [
+      "vase",
+      "bottle",
+      "cup",
+      "clock"
+    ],
+    "detected_hallucinations": [
+      "clock",
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000468169.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "sports ball",
+      "bench",
+      "baseball glove"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "bench",
+      "baseball bat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000468997.jpg",
+    "gt_words": [
+      "baseball glove",
+      "baseball bat",
+      "person",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball",
+      "baseball bat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000470699.jpg",
+    "gt_words": [
+      "person",
+      "surfboard",
+      "dog"
+    ],
+    "generated_words": [
+      "person",
+      "dog"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000472143.jpg",
+    "gt_words": [
+      "backpack",
+      "car",
+      "bench",
+      "fork",
+      "dining table",
+      "chair",
+      "bird",
+      "person",
+      "handbag",
+      "potted plant"
+    ],
+    "generated_words": [
+      "person",
+      "bench",
+      "backpack",
+      "handbag",
+      "hot dog",
+      "chair",
+      "potted plant",
+      "sandwich"
+    ],
+    "hallucination_words": [
+      "hot dog",
+      "sandwich"
+    ],
+    "detected_hallucinations": [
+      "hot dog"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000472375.jpg",
+    "gt_words": [
+      "cup",
+      "motorcycle",
+      "bottle",
+      "dog"
+    ],
+    "generated_words": [
+      "chair",
+      "dog",
+      "bottle",
+      "motorcycle"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000474741.jpg",
+    "gt_words": [
+      "backpack",
+      "vase",
+      "dining table",
+      "clock",
+      "person",
+      "handbag",
+      "tie",
+      "potted plant",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "handbag",
+      "clock",
+      "chair",
+      "tie",
+      "potted plant"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000475944.jpg",
+    "gt_words": [
+      "bird"
+    ],
+    "generated_words": [
+      "bird",
+      "orange"
+    ],
+    "hallucination_words": [
+      "orange"
+    ],
+    "detected_hallucinations": [
+      "orange"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000476975.jpg",
+    "gt_words": [
+      "zebra",
+      "elephant"
+    ],
+    "generated_words": [
+      "elephant"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000477598.jpg",
+    "gt_words": [
+      "person",
+      "dog",
+      "frisbee"
+    ],
+    "generated_words": [
+      "frisbee",
+      "dog"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000478736.jpg",
+    "gt_words": [
+      "stop sign",
+      "car",
+      "traffic light"
+    ],
+    "generated_words": [
+      "traffic light",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000480122.jpg",
+    "gt_words": [
+      "chair",
+      "bottle",
+      "spoon",
+      "sink",
+      "dining table",
+      "bowl",
+      "oven",
+      "banana",
+      "knife",
+      "potted plant"
+    ],
+    "generated_words": [
+      "bowl",
+      "oven",
+      "refrigerator",
+      "dining table",
+      "chair",
+      "sink",
+      "potted plant",
+      "knife",
+      "banana"
+    ],
+    "hallucination_words": [
+      "refrigerator"
+    ],
+    "detected_hallucinations": [
+      "refrigerator",
+      "sink",
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000480345.jpg",
+    "gt_words": [
+      "zebra",
+      "giraffe"
+    ],
+    "generated_words": [
+      "giraffe"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000481446.jpg",
+    "gt_words": [
+      "person",
+      "tie"
+    ],
+    "generated_words": [
+      "tie",
+      "person"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000481635.jpg",
+    "gt_words": [
+      "pizza",
+      "cup",
+      "person",
+      "dining table"
+    ],
+    "generated_words": [
+      "pizza",
+      "knife",
+      "cup",
+      "person",
+      "dining table"
+    ],
+    "hallucination_words": [
+      "knife"
+    ],
+    "detected_hallucinations": [
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000482275.jpg",
+    "gt_words": [
+      "cup",
+      "vase",
+      "knife",
+      "person",
+      "cake",
+      "tie",
+      "dining table"
+    ],
+    "generated_words": [
+      "person",
+      "dining table",
+      "cake",
+      "cup",
+      "vase",
+      "knife"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000482476.jpg",
+    "gt_words": [
+      "cell phone",
+      "remote",
+      "person",
+      "handbag",
+      "potted plant"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "handbag",
+      "potted plant",
+      "book"
+    ],
+    "hallucination_words": [
+      "book"
+    ],
+    "detected_hallucinations": [
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000482829.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000485485.jpg",
+    "gt_words": [
+      "person",
+      "car",
+      "elephant"
+    ],
+    "generated_words": [
+      "elephant"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000485564.jpg",
+    "gt_words": [
+      "car",
+      "person",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000488945.jpg",
+    "gt_words": [
+      "cat",
+      "remote",
+      "laptop",
+      "book",
+      "orange",
+      "couch",
+      "dining table",
+      "cup"
+    ],
+    "generated_words": [
+      "cat",
+      "remote",
+      "laptop",
+      "book",
+      "couch",
+      "bottle",
+      "chair",
+      "dining table"
+    ],
+    "hallucination_words": [
+      "chair",
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "book",
+      "bottle",
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000489588.jpg",
+    "gt_words": [
+      "cow",
+      "sheep"
+    ],
+    "generated_words": [
+      "sheep"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000489728.jpg",
+    "gt_words": [
+      "laptop",
+      "bowl",
+      "person",
+      "bed",
+      "orange",
+      "book",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "bowl",
+      "book",
+      "cup",
+      "laptop",
+      "tv"
+    ],
+    "hallucination_words": [
+      "couch",
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "couch",
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000489743.jpg",
+    "gt_words": [
+      "cat",
+      "bed",
+      "teddy bear"
+    ],
+    "generated_words": [
+      "cat",
+      "couch",
+      "teddy bear"
+    ],
+    "hallucination_words": [
+      "couch"
+    ],
+    "detected_hallucinations": [
+      "couch"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000495311.jpg",
+    "gt_words": [
+      "airplane",
+      "person",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "airplane",
+      "truck"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000495519.jpg",
+    "gt_words": [
+      "truck",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "boat"
+    ],
+    "hallucination_words": [
+      "boat"
+    ],
+    "detected_hallucinations": [
+      "boat"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000497076.jpg",
+    "gt_words": [
+      "elephant",
+      "person"
+    ],
+    "generated_words": [
+      "bench",
+      "elephant",
+      "person"
+    ],
+    "hallucination_words": [
+      "bench"
+    ],
+    "detected_hallucinations": [
+      "bench"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000497599.jpg",
+    "gt_words": [
+      "person",
+      "dining table",
+      "laptop",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "laptop"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000498374.jpg",
+    "gt_words": [
+      "person",
+      "toilet",
+      "sink"
+    ],
+    "generated_words": [
+      "person",
+      "toilet",
+      "sink"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000498759.jpg",
+    "gt_words": [
+      "car",
+      "skateboard",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "skateboard",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000499105.jpg",
+    "gt_words": [
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000500257.jpg",
+    "gt_words": [
+      "person",
+      "tv",
+      "suitcase"
+    ],
+    "generated_words": [
+      "person",
+      "suitcase",
+      "backpack"
+    ],
+    "hallucination_words": [
+      "backpack"
+    ],
+    "detected_hallucinations": [
+      "backpack"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000500473.jpg",
+    "gt_words": [
+      "apple",
+      "dining table",
+      "carrot",
+      "person",
+      "handbag",
+      "broccoli",
+      "orange"
+    ],
+    "generated_words": [
+      "person",
+      "carrot"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000500680.jpg",
+    "gt_words": [
+      "handbag",
+      "person",
+      "dining table"
+    ],
+    "generated_words": [
+      "sandwich",
+      "donut",
+      "handbag",
+      "cake",
+      "person",
+      "dining table"
+    ],
+    "hallucination_words": [
+      "cake",
+      "sandwich",
+      "donut"
+    ],
+    "detected_hallucinations": [
+      "sandwich",
+      "donut",
+      "cake"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000501294.jpg",
+    "gt_words": [
+      "person",
+      "couch",
+      "chair",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "couch",
+      "book",
+      "dining table",
+      "clock",
+      "chair",
+      "vase",
+      "tv"
+    ],
+    "hallucination_words": [
+      "dining table",
+      "book",
+      "vase",
+      "clock"
+    ],
+    "detected_hallucinations": [
+      "dining table",
+      "clock",
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000501652.jpg",
+    "gt_words": [
+      "person",
+      "cell phone",
+      "car",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "cell phone",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000501898.jpg",
+    "gt_words": [
+      "bench",
+      "bottle",
+      "person",
+      "tennis racket",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "sports ball",
+      "tennis racket"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000505335.jpg",
+    "gt_words": [
+      "person",
+      "umbrella",
+      "bottle",
+      "tie"
+    ],
+    "generated_words": [
+      "person",
+      "tie",
+      "umbrella"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000505542.jpg",
+    "gt_words": [
+      "person",
+      "train",
+      "car"
+    ],
+    "generated_words": [
+      "person",
+      "truck",
+      "car",
+      "train"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000505933.jpg",
+    "gt_words": [
+      "train",
+      "car",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "train"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000506483.jpg",
+    "gt_words": [
+      "backpack",
+      "car",
+      "bench",
+      "person",
+      "cat"
+    ],
+    "generated_words": [
+      "person",
+      "car",
+      "truck"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000510138.jpg",
+    "gt_words": [
+      "laptop",
+      "wine glass",
+      "dining table",
+      "bottle",
+      "chair",
+      "couch",
+      "person",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "wine glass",
+      "dining table",
+      "bottle",
+      "chair",
+      "laptop"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000510651.jpg",
+    "gt_words": [
+      "cake",
+      "spoon",
+      "wine glass",
+      "chair",
+      "cup",
+      "person",
+      "fork",
+      "handbag",
+      "dining table"
+    ],
+    "generated_words": [
+      "clock",
+      "handbag",
+      "fork",
+      "cake",
+      "wine glass",
+      "chair",
+      "cup",
+      "person",
+      "dining table"
+    ],
+    "hallucination_words": [
+      "clock"
+    ],
+    "detected_hallucinations": [
+      "clock"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000511341.jpg",
+    "gt_words": [
+      "backpack",
+      "car",
+      "umbrella",
+      "person",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella",
+      "handbag",
+      "backpack",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000514248.jpg",
+    "gt_words": [
+      "person",
+      "car",
+      "fire hydrant",
+      "horse"
+    ],
+    "generated_words": [
+      "person",
+      "fire hydrant",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000514292.jpg",
+    "gt_words": [
+      "book",
+      "teddy bear",
+      "bear"
+    ],
+    "generated_words": [
+      "teddy bear"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000514417.jpg",
+    "gt_words": [
+      "traffic light",
+      "car",
+      "person",
+      "umbrella"
+    ],
+    "generated_words": [
+      "traffic light",
+      "car",
+      "truck"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000514518.jpg",
+    "gt_words": [
+      "snowboard",
+      "skis",
+      "person"
+    ],
+    "generated_words": [
+      "backpack",
+      "skis",
+      "person"
+    ],
+    "hallucination_words": [
+      "backpack"
+    ],
+    "detected_hallucinations": [
+      "backpack"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000515820.jpg",
+    "gt_words": [
+      "train",
+      "bench",
+      "clock",
+      "person",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "clock",
+      "traffic light",
+      "train"
+    ],
+    "hallucination_words": [
+      "traffic light"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000515904.jpg",
+    "gt_words": [
+      "toilet",
+      "potted plant",
+      "vase",
+      "sink"
+    ],
+    "generated_words": [
+      "potted plant",
+      "vase",
+      "sink",
+      "bottle"
+    ],
+    "hallucination_words": [
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "bottle"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000516601.jpg",
+    "gt_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "generated_words": [
+      "person",
+      "skis",
+      "snowboard"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000516916.jpg",
+    "gt_words": [
+      "chair",
+      "laptop",
+      "cell phone",
+      "mouse",
+      "dining table",
+      "keyboard",
+      "tv"
+    ],
+    "generated_words": [
+      "cell phone",
+      "mouse",
+      "book",
+      "dining table",
+      "chair",
+      "keyboard",
+      "laptop",
+      "tv"
+    ],
+    "hallucination_words": [
+      "book"
+    ],
+    "detected_hallucinations": [
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000521643.jpg",
+    "gt_words": [
+      "dining table",
+      "vase",
+      "bottle"
+    ],
+    "generated_words": [
+      "book",
+      "dining table",
+      "vase"
+    ],
+    "hallucination_words": [
+      "book"
+    ],
+    "detected_hallucinations": [
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000523418.jpg",
+    "gt_words": [
+      "backpack",
+      "dog",
+      "frisbee",
+      "person"
+    ],
+    "generated_words": [
+      "chair",
+      "dog",
+      "frisbee",
+      "person"
+    ],
+    "hallucination_words": [
+      "chair"
+    ],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000524979.jpg",
+    "gt_words": [
+      "baseball glove",
+      "person",
+      "dog",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "sports ball",
+      "dog"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000525667.jpg",
+    "gt_words": [
+      "cup",
+      "bicycle",
+      "bench",
+      "dining table",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "bench",
+      "bicycle",
+      "handbag"
+    ],
+    "hallucination_words": [
+      "handbag"
+    ],
+    "detected_hallucinations": [
+      "handbag"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000526321.jpg",
+    "gt_words": [
+      "laptop",
+      "cell phone",
+      "mouse",
+      "dining table",
+      "book",
+      "keyboard",
+      "remote",
+      "tv"
+    ],
+    "generated_words": [
+      "cell phone",
+      "dining table",
+      "cup",
+      "tv",
+      "keyboard",
+      "laptop",
+      "book"
+    ],
+    "hallucination_words": [
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "cell phone",
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000526368.jpg",
+    "gt_words": [
+      "laptop",
+      "keyboard",
+      "dining table",
+      "chair",
+      "book"
+    ],
+    "generated_words": [
+      "cell phone",
+      "mouse",
+      "dining table",
+      "keyboard",
+      "laptop",
+      "book"
+    ],
+    "hallucination_words": [
+      "cell phone",
+      "mouse"
+    ],
+    "detected_hallucinations": [
+      "mouse",
+      "keyboard"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000528136.jpg",
+    "gt_words": [
+      "person",
+      "car",
+      "bus",
+      "handbag",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "handbag",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000528821.jpg",
+    "gt_words": [
+      "pizza",
+      "sandwich",
+      "cup",
+      "person",
+      "dining table"
+    ],
+    "generated_words": [
+      "pizza",
+      "knife",
+      "cup",
+      "person",
+      "dining table"
+    ],
+    "hallucination_words": [
+      "knife"
+    ],
+    "detected_hallucinations": [
+      "knife"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000528905.jpg",
+    "gt_words": [
+      "person",
+      "car",
+      "frisbee"
+    ],
+    "generated_words": [
+      "person",
+      "frisbee",
+      "car",
+      "truck"
+    ],
+    "hallucination_words": [
+      "truck"
+    ],
+    "detected_hallucinations": [
+      "truck"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000529668.jpg",
+    "gt_words": [
+      "person",
+      "handbag",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "handbag"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000533201.jpg",
+    "gt_words": [
+      "airplane",
+      "person",
+      "truck"
+    ],
+    "generated_words": [
+      "person",
+      "truck",
+      "car",
+      "airplane",
+      "bus"
+    ],
+    "hallucination_words": [
+      "bus"
+    ],
+    "detected_hallucinations": [
+      "bus"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000534516.jpg",
+    "gt_words": [
+      "person",
+      "traffic light",
+      "tie"
+    ],
+    "generated_words": [
+      "person",
+      "traffic light"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000534942.jpg",
+    "gt_words": [
+      "tie",
+      "cat"
+    ],
+    "generated_words": [
+      "cat",
+      "tie",
+      "bed"
+    ],
+    "hallucination_words": [
+      "bed"
+    ],
+    "detected_hallucinations": [
+      "bed"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000536073.jpg",
+    "gt_words": [
+      "cup",
+      "knife"
+    ],
+    "generated_words": [
+      "knife",
+      "cup",
+      "bottle"
+    ],
+    "hallucination_words": [
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "bottle"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000538054.jpg",
+    "gt_words": [
+      "person",
+      "handbag",
+      "banana"
+    ],
+    "generated_words": [
+      "person",
+      "banana"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000538236.jpg",
+    "gt_words": [
+      "person",
+      "hot dog",
+      "dining table",
+      "handbag"
+    ],
+    "generated_words": [
+      "person"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000539251.jpg",
+    "gt_words": [
+      "person",
+      "sink",
+      "potted plant",
+      "chair",
+      "bottle"
+    ],
+    "generated_words": [
+      "person",
+      "bottle",
+      "chair",
+      "sink",
+      "potted plant",
+      "toothbrush"
+    ],
+    "hallucination_words": [
+      "toothbrush"
+    ],
+    "detected_hallucinations": [
+      "toothbrush"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000541783.jpg",
+    "gt_words": [
+      "person",
+      "motorcycle"
+    ],
+    "generated_words": [
+      "person",
+      "backpack",
+      "motorcycle"
+    ],
+    "hallucination_words": [
+      "backpack"
+    ],
+    "detected_hallucinations": [
+      "backpack"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000542145.jpg",
+    "gt_words": [
+      "bottle",
+      "sink",
+      "toilet"
+    ],
+    "generated_words": [
+      "cup",
+      "bottle",
+      "toilet",
+      "sink",
+      "toothbrush"
+    ],
+    "hallucination_words": [
+      "cup",
+      "toothbrush"
+    ],
+    "detected_hallucinations": [
+      "cup",
+      "toothbrush"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000543393.jpg",
+    "gt_words": [
+      "stop sign",
+      "car",
+      "fire hydrant"
+    ],
+    "generated_words": [
+      "fire hydrant",
+      "stop sign",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000544456.jpg",
+    "gt_words": [
+      "backpack",
+      "person",
+      "skis"
+    ],
+    "generated_words": [
+      "person",
+      "skis"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000545353.jpg",
+    "gt_words": [
+      "person",
+      "dining table",
+      "microwave",
+      "pizza"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "oven",
+      "microwave",
+      "bottle",
+      "sink",
+      "pizza"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "bottle",
+      "oven",
+      "sink"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "oven",
+      "bottle",
+      "sink"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000549390.jpg",
+    "gt_words": [
+      "person",
+      "backpack",
+      "bicycle"
+    ],
+    "generated_words": [
+      "person",
+      "bicycle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000550514.jpg",
+    "gt_words": [
+      "backpack",
+      "person",
+      "snowboard",
+      "skis"
+    ],
+    "generated_words": [
+      "person",
+      "backpack",
+      "skis",
+      "snowboard"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000550691.jpg",
+    "gt_words": [
+      "person",
+      "bus",
+      "car",
+      "tie"
+    ],
+    "generated_words": [
+      "person",
+      "bench",
+      "car",
+      "bus",
+      "traffic light"
+    ],
+    "hallucination_words": [
+      "bench",
+      "traffic light"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000551881.jpg",
+    "gt_words": [
+      "dining table",
+      "chair",
+      "handbag",
+      "refrigerator",
+      "potted plant",
+      "book",
+      "clock"
+    ],
+    "generated_words": [
+      "oven",
+      "microwave",
+      "refrigerator",
+      "handbag",
+      "dining table",
+      "clock",
+      "chair",
+      "vase",
+      "sink",
+      "potted plant"
+    ],
+    "hallucination_words": [
+      "microwave",
+      "vase",
+      "oven",
+      "sink"
+    ],
+    "detected_hallucinations": [
+      "oven",
+      "vase",
+      "sink"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000553165.jpg",
+    "gt_words": [
+      "boat",
+      "person",
+      "bird"
+    ],
+    "generated_words": [
+      "person",
+      "boat",
+      "bird"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000553992.jpg",
+    "gt_words": [
+      "remote",
+      "chair",
+      "person",
+      "tie",
+      "tv"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "remote",
+      "tv"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000554002.jpg",
+    "gt_words": [
+      "person",
+      "handbag",
+      "dog",
+      "chair"
+    ],
+    "generated_words": [
+      "person",
+      "dog",
+      "handbag"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000554328.jpg",
+    "gt_words": [
+      "baseball glove",
+      "person",
+      "sports ball"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "baseball bat"
+    ],
+    "hallucination_words": [
+      "baseball bat"
+    ],
+    "detected_hallucinations": [
+      "baseball bat"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000555538.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "sports ball",
+      "baseball glove",
+      "bench"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "sports ball",
+      "bench"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "baseball glove"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000557016.jpg",
+    "gt_words": [
+      "car",
+      "bicycle",
+      "motorcycle",
+      "person",
+      "cow"
+    ],
+    "generated_words": [
+      "person",
+      "cow",
+      "motorcycle"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000559547.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "sports ball",
+      "baseball glove"
+    ],
+    "generated_words": [
+      "person",
+      "baseball bat"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000560064.jpg",
+    "gt_words": [
+      "person",
+      "bench",
+      "chair",
+      "potted plant",
+      "donut"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "bench",
+      "donut"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000560744.jpg",
+    "gt_words": [
+      "cup",
+      "wine glass",
+      "dining table",
+      "bottle",
+      "chair",
+      "knife",
+      "person",
+      "spoon",
+      "book"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "wine glass",
+      "dining table",
+      "cup",
+      "chair"
+    ],
+    "hallucination_words": [
+      "bowl"
+    ],
+    "detected_hallucinations": [
+      "bowl"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000562155.jpg",
+    "gt_words": [
+      "person",
+      "car",
+      "chair",
+      "tie"
+    ],
+    "generated_words": [
+      "person",
+      "chair",
+      "tie",
+      "car"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000564336.jpg",
+    "gt_words": [
+      "laptop",
+      "car",
+      "dining table",
+      "truck",
+      "bottle",
+      "chair",
+      "parking meter",
+      "person",
+      "backpack",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "handbag",
+      "backpack",
+      "dining table",
+      "bottle",
+      "cup",
+      "chair",
+      "laptop"
+    ],
+    "hallucination_words": [
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "bottle",
+      "cup"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000564511.jpg",
+    "gt_words": [
+      "pizza",
+      "cup",
+      "wine glass",
+      "bottle",
+      "person",
+      "oven"
+    ],
+    "generated_words": [
+      "person",
+      "oven",
+      "refrigerator",
+      "bottle",
+      "cup",
+      "sink",
+      "pizza"
+    ],
+    "hallucination_words": [
+      "refrigerator",
+      "sink"
+    ],
+    "detected_hallucinations": [
+      "oven",
+      "sink"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000565941.jpg",
+    "gt_words": [
+      "chair",
+      "person",
+      "cup",
+      "bottle",
+      "cake",
+      "dining table",
+      "knife",
+      "cell phone"
+    ],
+    "generated_words": [
+      "person",
+      "cell phone",
+      "dining table",
+      "cake",
+      "cup",
+      "bottle",
+      "chair",
+      "knife"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "chair"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000567886.jpg",
+    "gt_words": [
+      "person",
+      "book",
+      "teddy bear"
+    ],
+    "generated_words": [
+      "person",
+      "teddy bear",
+      "book",
+      "scissors"
+    ],
+    "hallucination_words": [
+      "scissors"
+    ],
+    "detected_hallucinations": [
+      "scissors"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000569839.jpg",
+    "gt_words": [
+      "chair",
+      "cup",
+      "person",
+      "sandwich",
+      "dining table"
+    ],
+    "generated_words": [
+      "person",
+      "backpack",
+      "hot dog",
+      "dining table",
+      "cup",
+      "chair"
+    ],
+    "hallucination_words": [
+      "hot dog",
+      "backpack"
+    ],
+    "detected_hallucinations": [
+      "backpack",
+      "hot dog"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000572075.jpg",
+    "gt_words": [
+      "toilet",
+      "bowl",
+      "cat"
+    ],
+    "generated_words": [
+      "cat",
+      "toilet",
+      "bowl"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000572260.jpg",
+    "gt_words": [
+      "cup",
+      "teddy bear",
+      "wine glass",
+      "apple"
+    ],
+    "generated_words": [
+      "teddy bear",
+      "book"
+    ],
+    "hallucination_words": [
+      "book"
+    ],
+    "detected_hallucinations": [
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000573796.jpg",
+    "gt_words": [
+      "dining table",
+      "knife"
+    ],
+    "generated_words": [
+      "dining table",
+      "knife",
+      "apple"
+    ],
+    "hallucination_words": [
+      "apple"
+    ],
+    "detected_hallucinations": [
+      "knife",
+      "apple"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000574057.jpg",
+    "gt_words": [
+      "car",
+      "bed",
+      "train",
+      "bottle"
+    ],
+    "generated_words": [
+      "train",
+      "book",
+      "bottle",
+      "bed"
+    ],
+    "hallucination_words": [
+      "book"
+    ],
+    "detected_hallucinations": [
+      "book"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000574454.jpg",
+    "gt_words": [
+      "kite",
+      "surfboard",
+      "person"
+    ],
+    "generated_words": [
+      "person",
+      "kite"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": [
+      "kite"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000574692.jpg",
+    "gt_words": [
+      "bottle",
+      "orange",
+      "person",
+      "dining table"
+    ],
+    "generated_words": [
+      "person",
+      "orange",
+      "dining table"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000574790.jpg",
+    "gt_words": [
+      "car",
+      "traffic light",
+      "truck"
+    ],
+    "generated_words": [
+      "traffic light",
+      "car",
+      "truck"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000575355.jpg",
+    "gt_words": [
+      "dining table",
+      "chair",
+      "bench"
+    ],
+    "generated_words": [
+      "bowl",
+      "dining table",
+      "cup",
+      "chair",
+      "vase"
+    ],
+    "hallucination_words": [
+      "vase",
+      "bowl",
+      "cup"
+    ],
+    "detected_hallucinations": [
+      "cup",
+      "vase"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000579231.jpg",
+    "gt_words": [
+      "person",
+      "baseball bat",
+      "baseball glove"
+    ],
+    "generated_words": [
+      "person",
+      "baseball glove",
+      "sports ball",
+      "baseball bat"
+    ],
+    "hallucination_words": [
+      "sports ball"
+    ],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000579277.jpg",
+    "gt_words": [
+      "person",
+      "motorcycle",
+      "carrot"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "apple",
+      "orange",
+      "motorcycle",
+      "banana"
+    ],
+    "hallucination_words": [
+      "bowl",
+      "orange",
+      "banana",
+      "apple"
+    ],
+    "detected_hallucinations": [
+      "apple",
+      "orange",
+      "banana"
+    ]
+  },
+  {
+    "img_id": "COCO_val2014_000000579415.jpg",
+    "gt_words": [
+      "umbrella",
+      "bus",
+      "traffic light",
+      "person",
+      "handbag"
+    ],
+    "generated_words": [
+      "person",
+      "umbrella",
+      "car",
+      "bus",
+      "traffic light"
+    ],
+    "hallucination_words": [],
+    "detected_hallucinations": []
+  },
+  {
+    "img_id": "COCO_val2014_000000580294.jpg",
+    "gt_words": [
+      "sink",
+      "bowl",
+      "toothbrush",
+      "person",
+      "spoon",
+      "cake"
+    ],
+    "generated_words": [
+      "person",
+      "bowl",
+      "microwave",
+      "oven",
+      "cake",
+      "cup",
+      "bottle",
+      "sink"
+    ],
+    "hallucination_words": [
+      "oven",
+      "cup",
+      "microwave",
+      "bottle"
+    ],
+    "detected_hallucinations": [
+      "bowl",
+      "microwave",
+      "oven",
+      "cup",
+      "bottle"
+    ]
+  }
+]

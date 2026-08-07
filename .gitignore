@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+outputs/
+data/good_detection_val500_f1_ge_0_8/
+data/good_detection_val500_f1_around_0_8/
+data/metadata/good_detection_val500_f1_*_summary.json
+data/metadata/hallucination_results_val500_good_f1_*.json
+*.egg-info/
