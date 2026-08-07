@@ -175,7 +175,10 @@ CUDA_VISIBLE_DEVICES=0 python tools/sadt/detect_classify_mitigate.py \
 
 The output JSON contains the original response, generated and ground-truth objects, labeled and detected hallucinations, Type-I/Type-II assignments, and aggregate detection/CHAIR metrics. HARM images remain in memory and are not written to disk.
 
-## 🧠 Semantic Matching
+<details>
+<summary><b>Semantic matching options</b></summary>
+
+<br>
 
 LLCC compares each generated object with the tokens decoded from its attended visual regions. Select a backend with `--semantic-matcher`:
 
@@ -188,8 +191,7 @@ LLCC compares each generated object with the tokens decoded from its attended vi
 | `coco-wordnet` | Union of COCO synonyms and WordNet synset lemmas. |
 | `llm-judge` | Direct YES/NO semantic judgment through an OpenAI-compatible endpoint. |
 
-<details>
-<summary><b>Use an LLM judge</b></summary>
+**LLM judge example**
 
 ```bash
 export SADT_LLM_JUDGE_API_BASE=http://127.0.0.1:8000/v1/chat/completions
