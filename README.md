@@ -14,11 +14,28 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-4c8bf5?style=for-the-badge" alt="License"></a>
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/Training--Free-yes-2ea44f?style=flat-square" alt="Training-free">
+  <img src="https://img.shields.io/badge/Python-3.10-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10">
+  <img src="https://img.shields.io/badge/PyTorch-Inference-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch inference">
+  <img src="https://img.shields.io/badge/Backbone-LLaVA-6C63FF?style=flat-square" alt="LLaVA backbone">
+</p>
+
+<p>
+  <a href="#the-finding">&#128300; Finding</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  <a href="#the-method">&#129517; Method</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  <a href="#main-results">&#128202; Results</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  <a href="#quick-start">&#128640; Quick Start</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  <a href="#mechanism-analysis">&#128200; Figures</a>
+</p>
+
 > **Object hallucination is not simply a failure to look.** Real and hallucinated objects can receive equally strong visual attention; what separates them is whether the attended visual evidence semantically supports the generated token.
 
 </div>
 
-## The Finding
+<a id="the-finding"></a>
+
+## 🔬 The Finding
 
 LVLMs exhibit a distinct **Image-Attention Stage** in their mid-to-late layers. During this stage, both real and hallucinated object tokens attend strongly to localized image regions. Attention magnitude alone therefore cannot reliably explain hallucination.
 
@@ -46,7 +63,9 @@ This semantic view further reveals two causes of hallucination:
 | **Visual uncertainty** | The model anchors to an ambiguous or confusable region. | The hallucination disappears after masking that region. | **HARM** removes the unreliable visual evidence. |
 | **Contextual prior** | A strong co-occurrence prior overrides valid visual evidence. | The hallucination persists and attention shifts after masking. | **VEED** injects genuine visual semantics into decoding. |
 
-## Detect, Classify, Mitigate
+<a id="the-method"></a>
+
+## 🧩 Detect, Classify, Mitigate
 
 SADT is a **training-free**, cause-aware inference framework. It detects hallucinated object tokens, identifies their underlying mechanism, and applies a different intervention to each type.
 
@@ -68,13 +87,15 @@ flowchart LR
 
 <!-- Replace the Mermaid block with assets/sadt_framework.png if the standalone paper Figure 6 is added later. -->
 
-- **LLCC — Logit-Lens Consistency Check:** detects whether high-attention visual features support the generated object token.
-- **HARM — High-Attention Regions Masking:** serves as both a causal classifier and the mitigation for visual-uncertainty hallucinations.
-- **VEED — Visual Evidence Enhanced Decoding:** promotes image-grounded visual logits when contextual priors dominate generation.
+| 🔎 **LLCC: Detect** | 🧭 **HARM: Classify & Mitigate** | 🛡️ **VEED: Mitigate** |
+|---|---|---|
+| Decodes high-attention visual regions and checks whether they semantically support the generated object. | Uses region masking as a causal probe and removes unreliable evidence for visual-uncertainty hallucinations. | Promotes genuine image-grounded logits when contextual priors dominate generation. |
 
-## Main Results
+<a id="main-results"></a>
 
-### Hallucination detection
+## 📊 Main Results
+
+### 🔎 Hallucination Detection
 
 LLCC directly checks whether the generation is grounded in the semantics of its attended visual source.
 
@@ -85,7 +106,7 @@ LLCC directly checks whether the generation is grounded in the semantics of its 
 | SVAR | 0.6500 | 0.7222 | 0.6842 |
 | **LLCC (ours)** | **0.7870** | **0.7955** | **0.7932** |
 
-### Hallucination mitigation on CHAIR
+### 🪑 Hallucination Mitigation on CHAIR
 
 Lower is better for both CHAIRS and CHAIRI.
 
@@ -96,7 +117,7 @@ Lower is better for both CHAIRS and CHAIRI.
 | Shikra-7B | 58.4 / 22.2 | **31.4 / 12.7** |
 | Qwen2-VL-7B | 31.4 / 12.7 | **24.0 / 8.3** |
 
-### Hallucination mitigation on AMBER
+### 🧪 Hallucination Mitigation on AMBER
 
 SADT lowers hallucination while preserving object coverage.
 
@@ -106,9 +127,11 @@ SADT lowers hallucination while preserving object coverage.
 | LLaVA-1.5-13B | 6.8 / 52.0 / 31.7 | **4.0 / 52.0 / 24.1** |
 | Shikra-7B | 10.6 / 52.0 / 47.0 | **5.3 / 52.3 / 30.3** |
 
-## Quick Start
+<a id="quick-start"></a>
 
-### 1. Installation
+## 🚀 Quick Start
+
+### 1. ⚙️ Installation
 
 ```bash
 git clone https://github.com/wzczc/SADT.git
@@ -125,7 +148,7 @@ Download a local LLaVA-1.5 checkpoint, such as `liuhaotian/llava-v1.5-7b`, and p
 python -m nltk.downloader wordnet omw-1.4
 ```
 
-### 2. Run the complete pipeline
+### 2. ▶️ Run the Complete Pipeline
 
 The public entry point performs **detection + mechanism classification + targeted mitigation** in one process:
 
@@ -152,7 +175,7 @@ CUDA_VISIBLE_DEVICES=0 python tools/sadt/detect_classify_mitigate.py \
 
 The output JSON contains the original response, generated and ground-truth objects, labeled and detected hallucinations, Type-I/Type-II assignments, and aggregate detection/CHAIR metrics. HARM images remain in memory and are not written to disk.
 
-## Semantic Matching
+## 🧠 Semantic Matching
 
 LLCC compares each generated object with the tokens decoded from its attended visual regions. Select a backend with `--semantic-matcher`:
 
@@ -185,9 +208,11 @@ For a hosted endpoint, set the API key environment variable named by `--llm-judg
 
 </details>
 
-## Reproduce the Mechanism Analysis
+<a id="mechanism-analysis"></a>
 
-### Dataset-level attention statistics
+## 📈 Reproduce the Mechanism Analysis
+
+### 📊 Dataset-Level Attention Statistics
 
 Collect the statistics used by Figures 1 and 2:
 
@@ -213,7 +238,7 @@ python tools/visualization/paper_figures.py fig2 \
   --output outputs/paper_figures/fig2.png
 ```
 
-### Single-image Logit-Lens visualization
+### 🔬 Single-Image Logit-Lens Visualization
 
 Cache the model trace, then visualize the high-attention patches and their decoded tokens:
 
@@ -233,7 +258,7 @@ CUDA_VISIBLE_DEVICES=0 python tools/visualization/paper_figures.py fig4 \
 
 Use `--all-layers` instead of `--example-layer 23` to render every layer in `--target-layers`. Paper figures are saved as PNG files.
 
-## Repository Layout
+## 🗂️ Repository Layout
 
 ```text
 SADT/
@@ -253,7 +278,7 @@ SADT/
 
 This release focuses on the paper-facing mechanism analysis and the integrated LLaVA/CHAIR pipeline. Training code, AMBER/debug entry points, and split experimental scripts are intentionally excluded.
 
-## Citation
+## 📝 Citation
 
 If this work is useful in your research, please cite:
 
@@ -268,10 +293,10 @@ If this work is useful in your research, please cite:
 }
 ```
 
-## Acknowledgments
+## 🤝 Acknowledgments
 
 This repository builds on [LLaVA](https://github.com/haotian-liu/LLaVA), [VCD](https://github.com/DAMO-NLP-SG/VCD), and the [CHAIR](https://github.com/LisaAnne/Hallucination) evaluation protocol. We thank their authors for making their work publicly available.
 
-## License
+## 📄 License
 
 Released under the [Apache License 2.0](LICENSE).
