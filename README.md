@@ -30,36 +30,36 @@
 
 ## 🔬 The Finding
 
-LVLMs exhibit a distinct **Image-Attention Stage** in their mid-to-late layers. During this stage, both real and hallucinated object tokens attend strongly to localized image regions.
-
-The aggregate comparison makes the counterintuitive result explicit: hallucinated objects receive virtually the same average image-attention ratio as real objects (`0.199` vs. `0.189`), while both are far above non-object tokens (`0.070`). **A hallucinated object is not simply a token that fails to look at the image.**
-
-<p align="center">
-  <img src="assets/attention_comparison.png" width="76%" alt="Average image-attention ratios for real objects, hallucinated objects, and non-object tokens">
-</p>
-
-<p align="center"><sub><b>Attention is not enough.</b> Strong visual attention does not guarantee that the attended evidence supports the generated object.</sub></p>
-
-The layer-wise view below locates where this behavior emerges. Real and hallucinated object tokens enter the same Image-Attention Stage, so attention magnitude alone cannot reliably distinguish them.
-
-<p align="center">
-  <img src="assets/image_attention_stage.png" width="76%" alt="System, image, and text attention across LLaVA layers">
-</p>
-
-SADT places a **Logit Lens** over those high-attention visual regions. The difference becomes visible: regions supporting a real object decode to semantically consistent tokens, while regions associated with a hallucinated object do not.
-
 <table>
   <tr>
-    <td align="center"><img src="assets/real_object_logit_lens.png" width="100%" alt="Real chair token with consistent visual evidence"></td>
-    <td align="center"><img src="assets/hallucinated_object_logit_lens.png" width="100%" alt="Hallucinated bowl token with inconsistent visual evidence"></td>
+    <td width="48%" align="center"><a href="assets/same_attention.png"><img src="assets/same_attention.png" width="100%" alt="Real and hallucinated object tokens receive similar visual attention"></a></td>
+    <td width="52%" align="center"><a href="assets/attention_vs_layer.png"><img src="assets/attention_vs_layer.png" width="100%" alt="System, image, and text attention across LLaVA layers"></a></td>
   </tr>
   <tr>
-    <td align="center"><b>Real object: chair</b><br>Attended regions decode to chair-related tokens.</td>
-    <td align="center"><b>Hallucinated object: bowl</b><br>Attended regions decode to unrelated tokens.</td>
+    <td align="center"><b>Same attention magnitude</b><br>Real and hallucinated objects receive nearly identical visual attention.</td>
+    <td align="center"><b>Same attention stage</b><br>Both enter a shared Image-Attention Stage in mid-to-late layers.</td>
   </tr>
 </table>
 
-This semantic view further reveals two causes of hallucination:
+<p align="center"><sub>Click any figure to view it at full resolution.</sub></p>
+
+Hallucinated objects can receive virtually the same average image-attention ratio as real objects (`0.199` vs. `0.189`). **A hallucinated object is therefore not simply a token that fails to look at the image.** Attention magnitude tells us where the model looks, but not whether the attended evidence supports what it says.
+
+### Attention Is Not Evidence
+
+SADT places a **Logit Lens** over high-attention visual regions. For real objects, the attended features decode into semantically consistent concepts; for hallucinated objects, they decode into unrelated concepts, despite similarly strong attention.
+
+<p align="center">
+  <a href="assets/logit_lens.png"><img src="assets/logit_lens.png" width="72%" alt="Logit-Lens comparison between real and hallucinated object tokens"></a>
+</p>
+
+### Two Causes, Two Interventions
+
+The semantic inconsistency has two distinct causal origins. Masking the high-attention region removes a **visual-uncertainty** hallucination, but a **contextual-prior** hallucination persists and shifts its attention to other contextually related regions.
+
+<p align="center">
+  <a href="assets/two_mechanisms.png"><img src="assets/two_mechanisms.png" width="68%" alt="Causal distinction between visual uncertainty and contextual prior hallucinations"></a>
+</p>
 
 | Mechanism | What happens | Causal probe | Targeted remedy |
 |---|---|---|---|
@@ -72,23 +72,9 @@ This semantic view further reveals two causes of hallucination:
 
 SADT is a **training-free**, cause-aware inference framework. It detects hallucinated object tokens, identifies their underlying mechanism, and applies a different intervention to each type.
 
-```mermaid
-flowchart LR
-    A[Image + prompt] --> B[LVLM generation]
-    B --> C[Object token identification]
-    C --> D[LLCC: decode high-attention regions]
-    D -->|Semantically consistent| E[Keep real object]
-    D -->|Inconsistent| F[HARM causal probe]
-    F -->|Hallucination disappears| G[Type I: visual uncertainty]
-    F -->|Hallucination persists| H[Type II: contextual prior]
-    G --> I[HARM: remove unreliable evidence]
-    H --> J[VEED: enhance visual evidence]
-    E --> K[Final response]
-    I --> K
-    J --> K
-```
-
-<!-- Replace the Mermaid block with assets/sadt_framework.png if the standalone paper Figure 6 is added later. -->
+<p align="center">
+  <a href="assets/sadt_framework.png"><img src="assets/sadt_framework.png" width="92%" alt="SADT detection, causal classification, and targeted mitigation framework"></a>
+</p>
 
 | 🔎 **LLCC: Detect** | 🧭 **HARM: Classify & Mitigate** | 🛡️ **VEED: Mitigate** |
 |---|---|---|
