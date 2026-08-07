@@ -45,7 +45,7 @@
 
 <p align="center"><sub>Click any figure to view it at full resolution.</sub></p>
 
-Hallucinated objects can receive virtually the same average image-attention ratio as real objects (`0.199` vs. `0.189`). **A hallucinated object is therefore not simply a token that fails to look at the image.** Attention magnitude reflects how strongly a token attends to visual features, but cannot determine whether those features are semantically consistent with the generated object.
+Hallucinated objects can receive virtually the same average image-attention ratio as real objects (`0.199` vs. `0.189`). **A hallucinated object is therefore not simply a token that fails to look at the image.** Attention magnitude tells us where the model looks, but not whether the attended evidence supports what it says.
 
 ### Semantic Consistency Reveals the Difference
 
