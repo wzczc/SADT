@@ -6,19 +6,12 @@
 
 **Zichuan Wang · Songlin Yang · Bo Peng · Zhenchen Tang · Yang Li · Beibei Dong · Jing Dong**
 
-**CVPR 2026 Highlight**
+<h2>🏆 CVPR 2026 Highlight 🏆</h2>
 
 <p>
   <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Same_Attention_Different_Truths_Put_Logit-Lens_over_Visual_Attention_to_CVPR_2026_paper.html"><img src="https://img.shields.io/badge/CVPR%202026-Paper%20%26%20Supplement-b31b1b?style=for-the-badge" alt="Paper and Supplement"></a>
   <a href="https://github.com/wzczc/SADT"><img src="https://img.shields.io/badge/GitHub-Code-181717?style=for-the-badge&logo=github" alt="Code"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-4c8bf5?style=for-the-badge" alt="License"></a>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Training--Free-yes-2ea44f?style=flat-square" alt="Training-free">
-  <img src="https://img.shields.io/badge/Python-3.10-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10">
-  <img src="https://img.shields.io/badge/PyTorch-Inference-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch inference">
-  <img src="https://img.shields.io/badge/Backbone-LLaVA-6C63FF?style=flat-square" alt="LLaVA backbone">
 </p>
 
 <p>
@@ -37,7 +30,17 @@
 
 ## 🔬 The Finding
 
-LVLMs exhibit a distinct **Image-Attention Stage** in their mid-to-late layers. During this stage, both real and hallucinated object tokens attend strongly to localized image regions. Attention magnitude alone therefore cannot reliably explain hallucination.
+LVLMs exhibit a distinct **Image-Attention Stage** in their mid-to-late layers. During this stage, both real and hallucinated object tokens attend strongly to localized image regions.
+
+The aggregate comparison makes the counterintuitive result explicit: hallucinated objects receive virtually the same average image-attention ratio as real objects (`0.199` vs. `0.189`), while both are far above non-object tokens (`0.070`). **A hallucinated object is not simply a token that fails to look at the image.**
+
+<p align="center">
+  <img src="assets/attention_comparison.png" width="76%" alt="Average image-attention ratios for real objects, hallucinated objects, and non-object tokens">
+</p>
+
+<p align="center"><sub><b>Attention is not enough.</b> Strong visual attention does not guarantee that the attended evidence supports the generated object.</sub></p>
+
+The layer-wise view below locates where this behavior emerges. Real and hallucinated object tokens enter the same Image-Attention Stage, so attention magnitude alone cannot reliably distinguish them.
 
 <p align="center">
   <img src="assets/image_attention_stage.png" width="76%" alt="System, image, and text attention across LLaVA layers">
