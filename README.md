@@ -39,7 +39,7 @@
   </tr>
   <tr>
     <td align="center"><b>Same attention magnitude</b><br>Real and hallucinated objects receive nearly identical visual attention.</td>
-    <td align="center"><b>Same attention stage</b><br>Both enter a shared Image-Attention Stage in mid-to-late layers.</td>
+    <td align="center"><b>Image-Attention Stage</b><br>Object tokens exhibit a distinct stage of concentrated visual attention in mid-to-late layers.</td>
   </tr>
 </table>
 
