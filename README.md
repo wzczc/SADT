@@ -30,6 +30,8 @@
 
 ## 🔬 The Finding
 
+### Attention Is Not Evidence
+
 <table>
   <tr>
     <td width="48%" align="center"><a href="assets/same_attention.png"><img src="assets/same_attention.png" width="100%" alt="Real and hallucinated object tokens receive similar visual attention"></a></td>
@@ -45,7 +47,7 @@
 
 Hallucinated objects can receive virtually the same average image-attention ratio as real objects (`0.199` vs. `0.189`). **A hallucinated object is therefore not simply a token that fails to look at the image.** Attention magnitude tells us where the model looks, but not whether the attended evidence supports what it says.
 
-### Attention Is Not Evidence
+### Semantic Consistency Reveals the Difference
 
 SADT places a **Logit Lens** over high-attention visual regions. For real objects, the attended features decode into semantically consistent concepts; for hallucinated objects, they decode into unrelated concepts, despite similarly strong attention.
 
@@ -61,10 +63,9 @@ The semantic inconsistency has two distinct causal origins. Masking the high-att
   <a href="assets/two_mechanisms.png"><img src="assets/two_mechanisms.png" width="68%" alt="Causal distinction between visual uncertainty and contextual prior hallucinations"></a>
 </p>
 
-| Mechanism | What happens | Causal probe | Targeted remedy |
-|---|---|---|---|
-| **Visual uncertainty** | The model anchors to an ambiguous or confusable region. | The hallucination disappears after masking that region. | **HARM** removes the unreliable visual evidence. |
-| **Contextual prior** | A strong co-occurrence prior overrides valid visual evidence. | The hallucination persists and attention shifts after masking. | **VEED** injects genuine visual semantics into decoding. |
+**Type I: Visual uncertainty.** The model anchors to an ambiguous or confusable region. If masking that region removes the hallucination, **HARM** directly suppresses the unreliable visual evidence.
+
+**Type II: Contextual prior.** A strong co-occurrence prior overrides valid visual evidence. If the hallucination persists and attention shifts after masking, **VEED** injects genuine visual semantics into decoding.
 
 <a id="the-method"></a>
 
