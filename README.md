@@ -163,8 +163,6 @@ CUDA_VISIBLE_DEVICES=0 python tools/sadt/detect_classify_mitigate.py \
   --output-json outputs/sadt_smoke_test/results.json
 ```
 
-The output JSON contains the original response, generated and ground-truth objects, labeled and detected hallucinations, Type-I/Type-II assignments, and aggregate detection/CHAIR metrics. HARM images remain in memory and are not written to disk.
-
 <details>
 <summary><b>Semantic matching options</b></summary>
 
@@ -267,8 +265,6 @@ SADT/
     ├── paper_figures.py            # paper-figure entry point
     └── visualize_attention.py      # attention collection utilities
 ```
-
-This release focuses on the paper-facing mechanism analysis and the integrated LLaVA/CHAIR pipeline. Training code, AMBER/debug entry points, and split experimental scripts are intentionally excluded.
 
 ## 📝 Citation
 
